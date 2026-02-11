@@ -4,7 +4,7 @@
 ![Progress](https://img.shields.io/badge/Progress-0%25-red)
 Reverse engineering and C reimplementation of xebuild. No original code included.
 
-Progress: **0/518 (0.0%)**
+Progress: **0/517 (0.0%)**
 
 ---
 
