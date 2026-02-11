@@ -1,0 +1,3 @@
+004104e0: MOV EAX,dword ptr [ESP + 0x4]
+004104e4: MOV [0x004cd840],EAX
+004104e9: RET

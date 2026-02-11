@@ -1,0 +1,57 @@
+{
+    "return_type": "undefined", 
+    "address": "00434a30", 
+    "args": [
+        {
+            "type": "void *", 
+            "name": "param_1"
+        }, 
+        {
+            "type": "typedef size_t uint", 
+            "name": "param_2"
+        }, 
+        {
+            "type": "void *", 
+            "name": "param_3"
+        }, 
+        {
+            "type": "typedef size_t uint", 
+            "name": "param_4"
+        }, 
+        {
+            "type": "void *", 
+            "name": "param_5"
+        }, 
+        {
+            "type": "typedef size_t uint", 
+            "name": "param_6"
+        }, 
+        {
+            "type": "undefined4 *", 
+            "name": "param_7"
+        }, 
+        {
+            "type": "uint", 
+            "name": "param_8"
+        }
+    ], 
+    "calls": [
+        "00442b00", 
+        "00449108", 
+        "004490f8", 
+        "004448d0", 
+        "00449140", 
+        "00444da0", 
+        "00449108", 
+        "004490f8", 
+        "004448d0", 
+        "00449140", 
+        "00449108", 
+        "004490f8", 
+        "004448d0", 
+        "00449140", 
+        "004490f8"
+    ], 
+    "name": "FUN_00434a30", 
+    "stack_frame": 208
+}

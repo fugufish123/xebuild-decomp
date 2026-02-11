@@ -1,0 +1,12 @@
+
+/* WARNING: Unknown calling convention -- yet parameter storage is locked */
+
+void signal(int param_1)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x004490a0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  signal(param_1);
+  return;
+}
+

@@ -1,0 +1,29 @@
+{
+    "return_type": "undefined4", 
+    "address": "0041ea90", 
+    "args": [], 
+    "calls": [
+        "EXTERNAL:00000079", 
+        "EXTERNAL:00000078", 
+        "EXTERNAL:00000073", 
+        "EXTERNAL:00000070", 
+        "EXTERNAL:00000075", 
+        "00420ad0", 
+        "00420ad0", 
+        "00433690", 
+        "EXTERNAL:00000076", 
+        "EXTERNAL:0000006d", 
+        "00433690", 
+        "EXTERNAL:00000071", 
+        "EXTERNAL:0000006d", 
+        "00433690", 
+        "00433690", 
+        "EXTERNAL:00000071", 
+        "00420af0", 
+        "EXTERNAL:00000071", 
+        "EXTERNAL:0000006d", 
+        "EXTERNAL:0000006d"
+    ], 
+    "name": "FUN_0041ea90", 
+    "stack_frame": 384
+}

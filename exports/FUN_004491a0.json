@@ -1,0 +1,17 @@
+{
+    "return_type": "void *", 
+    "address": "004491a0", 
+    "args": [
+        {
+            "type": "typedef size_t uint", 
+            "name": "_Count"
+        }, 
+        {
+            "type": "typedef size_t uint", 
+            "name": "_Size"
+        }
+    ], 
+    "calls": [], 
+    "name": "FUN_004491a0", 
+    "stack_frame": 12
+}

@@ -1,0 +1,43 @@
+{
+    "return_type": "undefined", 
+    "address": "00418fd0", 
+    "args": [
+        {
+            "type": "undefined4", 
+            "name": "param_1"
+        }, 
+        {
+            "type": "char *", 
+            "name": "param_2"
+        }, 
+        {
+            "type": "undefined4 *", 
+            "name": "param_3"
+        }, 
+        {
+            "type": "typedef size_t uint", 
+            "name": "param_4"
+        }, 
+        {
+            "type": "int", 
+            "name": "param_5"
+        }, 
+        {
+            "type": "int", 
+            "name": "param_6"
+        }
+    ], 
+    "calls": [
+        "00449080", 
+        "004225a0", 
+        "00422670", 
+        "00449140", 
+        "00449080", 
+        "00422ae0", 
+        "00433690", 
+        "00433690", 
+        "00433690"
+    ], 
+    "name": "FUN_00418fd0", 
+    "stack_frame": 1128
+}

@@ -1,0 +1,21 @@
+{
+    "return_type": "char *", 
+    "address": "00449218", 
+    "args": [
+        {
+            "type": "char *", 
+            "name": "_FullPath"
+        }, 
+        {
+            "type": "char *", 
+            "name": "_Path"
+        }, 
+        {
+            "type": "typedef size_t uint", 
+            "name": "_SizeInBytes"
+        }
+    ], 
+    "calls": [], 
+    "name": "FUN_00449218", 
+    "stack_frame": 16
+}

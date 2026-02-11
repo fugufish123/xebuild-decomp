@@ -1,0 +1,23 @@
+{
+    "return_type": "undefined4", 
+    "address": "00420320", 
+    "args": [
+        {
+            "type": "ushort", 
+            "name": "param_1"
+        }, 
+        {
+            "type": "ushort", 
+            "name": "param_2"
+        }
+    ], 
+    "calls": [
+        "00449098", 
+        "EXTERNAL:00000077", 
+        "0041e800", 
+        "00449140", 
+        "00420ab0"
+    ], 
+    "name": "FUN_00420320", 
+    "stack_frame": 102
+}

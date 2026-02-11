@@ -1,0 +1,21 @@
+{
+    "return_type": "int", 
+    "address": "004491d0", 
+    "args": [
+        {
+            "type": "char *", 
+            "name": "_Str1"
+        }, 
+        {
+            "type": "char *", 
+            "name": "_Str2"
+        }, 
+        {
+            "type": "typedef size_t uint", 
+            "name": "_MaxCount"
+        }
+    ], 
+    "calls": [], 
+    "name": "FUN_004491d0", 
+    "stack_frame": 16
+}

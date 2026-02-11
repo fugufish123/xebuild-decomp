@@ -1,0 +1,25 @@
+{
+    "return_type": "bool", 
+    "address": "00420d00", 
+    "args": [
+        {
+            "type": "char *", 
+            "name": "param_1"
+        }, 
+        {
+            "type": "void *", 
+            "name": "param_2"
+        }, 
+        {
+            "type": "typedef size_t uint", 
+            "name": "param_3"
+        }
+    ], 
+    "calls": [
+        "00449160", 
+        "00449118", 
+        "00449190"
+    ], 
+    "name": "FUN_00420d00", 
+    "stack_frame": 44
+}

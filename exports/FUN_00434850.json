@@ -1,0 +1,20 @@
+{
+    "return_type": "undefined", 
+    "address": "00434850", 
+    "args": [
+        {
+            "type": "uint *", 
+            "name": "param_1"
+        }, 
+        {
+            "type": "uint *", 
+            "name": "param_2"
+        }
+    ], 
+    "calls": [
+        "0043c6f0", 
+        "0043e4e0"
+    ], 
+    "name": "FUN_00434850", 
+    "stack_frame": 40
+}

@@ -1,0 +1,30 @@
+0040e520: PUSH ESI
+0040e521: PUSH EBX
+0040e522: SUB ESP,0x54
+0040e525: MOV EBX,dword ptr [ESP + 0x60]
+0040e529: LEA ESI,[ESP + 0x3c]
+0040e52d: MOV dword ptr [ESP + 0x24],0x14
+0040e535: MOV dword ptr [ESP + 0x1c],0x2108
+0040e53d: MOV dword ptr [ESP + 0x14],0x1cf8
+0040e545: MOV dword ptr [ESP + 0x20],ESI
+0040e549: MOV dword ptr [ESP + 0xc],0xd4
+0040e551: LEA EAX,[EBX + 0x1ef8]
+0040e557: MOV dword ptr [ESP + 0x4],0x10
+0040e55f: MOV dword ptr [ESP + 0x18],EAX
+0040e563: LEA EAX,[EBX + 0x100]
+0040e569: MOV dword ptr [ESP + 0x10],EAX
+0040e56d: LEA EAX,[EBX + 0x1c]
+0040e570: ADD EBX,0x1df8
+0040e576: MOV dword ptr [ESP + 0x8],EAX
+0040e57a: MOV EAX,dword ptr [ESP + 0x68]
+0040e57e: MOV dword ptr [ESP],EAX
+0040e581: CALL 0x00434110
+0040e586: MOV EAX,dword ptr [ESP + 0x64]
+0040e58a: MOV dword ptr [ESP + 0x4],EBX
+0040e58e: MOV dword ptr [ESP],ESI
+0040e591: MOV dword ptr [ESP + 0x8],EAX
+0040e595: CALL 0x00435b00
+0040e59a: ADD ESP,0x54
+0040e59d: POP EBX
+0040e59e: POP ESI
+0040e59f: RET

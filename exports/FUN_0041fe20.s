@@ -1,0 +1,78 @@
+0041fe20: PUSH EBX
+0041fe21: SUB ESP,0x38
+0041fe24: MOV dword ptr [ESP],0x4cd844
+0041fe2b: CALL 0x00449050
+0041fe30: MOV dword ptr [ESP + 0x4],0x45796c
+0041fe38: MOV dword ptr [ESP],0x0
+0041fe3f: CALL 0x00433690
+0041fe44: MOV EAX,[0x0044a6c0]
+0041fe49: MOV dword ptr [ESP + 0xc],0x0
+0041fe51: MOV dword ptr [ESP + 0x8],0x5
+0041fe59: MOV dword ptr [ESP + 0x4],0x457990
+0041fe61: MOV dword ptr [ESP],EAX
+0041fe64: CALL dword ptr [0x0050f43c]
+0041fe6a: SUB ESP,0x10
+0041fe6d: CMP EAX,0x5
+0041fe70: JZ 0x0041fe90
+0041fe72: MOV dword ptr [ESP + 0x4],0x4577bb
+0041fe7a: MOV dword ptr [ESP],0x0
+0041fe81: CALL 0x00433690
+0041fe86: XOR EAX,EAX
+0041fe88: ADD ESP,0x38
+0041fe8b: POP EBX
+0041fe8c: RET
+0041fe90: CALL 0x00433600
+0041fe95: TEST EAX,EAX
+0041fe97: SETNZ AL
+0041fe9a: MOVZX EAX,AL
+0041fe9d: MOV dword ptr [ESP + 0x4],EAX
+0041fea1: LEA EAX,[ESP + 0x28]
+0041fea5: MOV dword ptr [ESP],EAX
+0041fea8: CALL 0x0041ee30
+0041fead: TEST EAX,EAX
+0041feaf: MOV EBX,EAX
+0041feb1: JZ 0x0041fe72
+0041feb3: MOV EAX,dword ptr [ESP + 0x40]
+0041feb7: MOV dword ptr [ESP + 0x4],0x457998
+0041febf: MOV dword ptr [ESP],0x1
+0041fec6: MOV dword ptr [ESP + 0xc],EAX
+0041feca: MOV EAX,dword ptr [ESP + 0x28]
+0041fece: MOV dword ptr [ESP + 0x8],EAX
+0041fed2: CALL 0x00433690
+0041fed7: MOV EAX,dword ptr [ESP + 0x28]
+0041fedb: MOV dword ptr [ESP + 0x4],EBX
+0041fedf: MOV dword ptr [ESP + 0x8],EAX
+0041fee3: MOV EAX,dword ptr [ESP + 0x40]
+0041fee7: MOV dword ptr [ESP],EAX
+0041feea: CALL 0x00420d00
+0041feef: TEST EAX,EAX
+0041fef1: JZ 0x0041ff70
+0041fef3: MOV dword ptr [ESP + 0x4],0x45773c
+0041fefb: MOV dword ptr [ESP],0x0
+0041ff02: CALL 0x00433690
+0041ff07: LEA EAX,[ESP + 0x2c]
+0041ff0b: MOV dword ptr [ESP],EAX
+0041ff0e: CALL 0x00449050
+0041ff13: MOV EAX,[0x004cd844]
+0041ff18: MOV dword ptr [ESP + 0x4],EAX
+0041ff1c: MOV EAX,dword ptr [ESP + 0x2c]
+0041ff20: MOV dword ptr [ESP],EAX
+0041ff23: CALL 0x00448190
+0041ff28: FSTP double ptr [ESP + 0x8]
+0041ff2c: MOV dword ptr [ESP + 0x4],0x45763e
+0041ff34: MOV dword ptr [ESP],0x0
+0041ff3b: CALL 0x00433690
+0041ff40: CMP EBX,0x479578
+0041ff46: MOV EAX,0x1
+0041ff4b: JZ 0x0041fe88
+0041ff51: MOV dword ptr [ESP],EBX
+0041ff54: MOV dword ptr [ESP + 0x1c],EAX
+0041ff58: CALL 0x00449140
+0041ff5d: MOV EAX,dword ptr [ESP + 0x1c]
+0041ff61: ADD ESP,0x38
+0041ff64: POP EBX
+0041ff65: RET
+0041ff70: MOV dword ptr [ESP + 0x4],0x4577bb
+0041ff78: MOV dword ptr [ESP],0x0
+0041ff7f: CALL 0x00433690
+0041ff84: JMP 0x0041ff07

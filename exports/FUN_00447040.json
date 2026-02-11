@@ -1,0 +1,17 @@
+{
+    "return_type": "int *", 
+    "address": "00447040", 
+    "args": [], 
+    "calls": [
+        "00447990", 
+        "00447aa0", 
+        "EXTERNAL:00000019", 
+        "EXTERNAL:00000018", 
+        "EXTERNAL:00000008", 
+        "00446fe0", 
+        "00446fe0", 
+        "00446fe0"
+    ], 
+    "name": "FUN_00447040", 
+    "stack_frame": 64
+}

@@ -1,0 +1,34 @@
+{
+    "return_type": "undefined", 
+    "address": "00410bb0", 
+    "args": [
+        {
+            "type": "char *", 
+            "name": "param_1"
+        }, 
+        {
+            "type": "void *", 
+            "name": "param_2"
+        }, 
+        {
+            "type": "undefined4 *", 
+            "name": "param_3"
+        }, 
+        {
+            "type": "uint", 
+            "name": "param_4"
+        }
+    ], 
+    "calls": [
+        "00449080", 
+        "004490f8", 
+        "00433690", 
+        "0040eef0", 
+        "004490f8", 
+        "004490f0", 
+        "004490f8", 
+        "004490f8"
+    ], 
+    "name": "FUN_00410bb0", 
+    "stack_frame": 112
+}

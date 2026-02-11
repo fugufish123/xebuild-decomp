@@ -1,0 +1,16 @@
+{
+    "return_type": "bool", 
+    "address": "004225a0", 
+    "args": [
+        {
+            "type": "char *", 
+            "name": "param_1"
+        }
+    ], 
+    "calls": [
+        "00449160", 
+        "00449190"
+    ], 
+    "name": "FUN_004225a0", 
+    "stack_frame": 36
+}

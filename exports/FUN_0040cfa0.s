@@ -1,0 +1,20 @@
+0040cfa0: SUB ESP,0x1c
+0040cfa3: MOV EAX,[0x0046f18c]
+0040cfa8: MOV dword ptr [0x0046f184],0x0
+0040cfb2: MOV dword ptr [0x0046f180],0x0
+0040cfbc: TEST EAX,EAX
+0040cfbe: JZ 0x0040cfd2
+0040cfc0: MOV dword ptr [ESP],EAX
+0040cfc3: CALL 0x00449140
+0040cfc8: MOV dword ptr [0x0046f18c],0x0
+0040cfd2: MOV EAX,[0x0046f188]
+0040cfd7: TEST EAX,EAX
+0040cfd9: JZ 0x0040cfed
+0040cfdb: MOV dword ptr [ESP],EAX
+0040cfde: CALL 0x00449140
+0040cfe3: MOV dword ptr [0x0046f188],0x0
+0040cfed: MOV dword ptr [ESP],0x46f194
+0040cff4: MOV dword ptr [0x0046f190],0x0
+0040cffe: CALL 0x00405f50
+0040d003: ADD ESP,0x1c
+0040d006: RET

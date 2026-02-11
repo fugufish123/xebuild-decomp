@@ -1,0 +1,13 @@
+{
+    "return_type": "void", 
+    "address": "00449140", 
+    "args": [
+        {
+            "type": "void *", 
+            "name": "_Memory"
+        }
+    ], 
+    "calls": [], 
+    "name": "FUN_00449140", 
+    "stack_frame": 8
+}

@@ -1,0 +1,17 @@
+{
+    "return_type": "int", 
+    "address": "004491d8", 
+    "args": [
+        {
+            "type": "char *", 
+            "name": "_Str1"
+        }, 
+        {
+            "type": "char *", 
+            "name": "_Str2"
+        }
+    ], 
+    "calls": [], 
+    "name": "FUN_004491d8", 
+    "stack_frame": 12
+}

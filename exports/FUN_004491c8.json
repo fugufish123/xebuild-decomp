@@ -1,0 +1,13 @@
+{
+    "return_type": "void", 
+    "address": "004491c8", 
+    "args": [
+        {
+            "type": "int", 
+            "name": "_File"
+        }
+    ], 
+    "calls": [], 
+    "name": "FUN_004491c8", 
+    "stack_frame": 8
+}

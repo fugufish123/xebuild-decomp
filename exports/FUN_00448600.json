@@ -1,0 +1,32 @@
+{
+    "return_type": "undefined", 
+    "address": "00448600", 
+    "args": [
+        {
+            "type": "short *", 
+            "name": "param_1"
+        }, 
+        {
+            "type": "wchar_t *", 
+            "name": "param_2"
+        }, 
+        {
+            "type": "undefined4", 
+            "name": "param_3"
+        }
+    ], 
+    "calls": [
+        "00449108", 
+        "EXTERNAL:00000009", 
+        "004491e8", 
+        "EXTERNAL:0000006c", 
+        "00449040", 
+        "004491b0", 
+        "004490c8", 
+        "00449248", 
+        "00449120", 
+        "004491b0"
+    ], 
+    "name": "FUN_00448600", 
+    "stack_frame": 604
+}

@@ -1,0 +1,17 @@
+{
+    "return_type": "ulong", 
+    "address": "00449200", 
+    "args": [
+        {
+            "type": "ulong", 
+            "name": "_Val"
+        }, 
+        {
+            "type": "int", 
+            "name": "_Shift"
+        }
+    ], 
+    "calls": [], 
+    "name": "FUN_00449200", 
+    "stack_frame": 12
+}

@@ -1,0 +1,26 @@
+{
+    "return_type": "undefined4", 
+    "address": "0040b910", 
+    "args": [
+        {
+            "type": "uint *", 
+            "name": "param_1"
+        }, 
+        {
+            "type": "short *", 
+            "name": "param_2"
+        }, 
+        {
+            "type": "short *", 
+            "name": "param_3"
+        }
+    ], 
+    "calls": [
+        "00447c30", 
+        "00447d70", 
+        "00449110", 
+        "EXTERNAL:00000026"
+    ], 
+    "name": "FUN_0040b910", 
+    "stack_frame": 76
+}

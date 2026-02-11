@@ -1,0 +1,38 @@
+{
+    "return_type": "int", 
+    "address": "00406b60", 
+    "args": [
+        {
+            "type": "undefined4", 
+            "name": "param_1"
+        }, 
+        {
+            "type": "char *", 
+            "name": "param_2"
+        }, 
+        {
+            "type": "byte *", 
+            "name": "param_3"
+        }, 
+        {
+            "type": "typedef size_t uint", 
+            "name": "param_4"
+        }, 
+        {
+            "type": "int", 
+            "name": "param_5"
+        }
+    ], 
+    "calls": [
+        "00433690", 
+        "004225a0", 
+        "00422ae0", 
+        "00433690", 
+        "00422670", 
+        "00433690", 
+        "00420d80", 
+        "00420e40"
+    ], 
+    "name": "FUN_00406b60", 
+    "stack_frame": 52
+}

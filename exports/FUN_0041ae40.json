@@ -1,0 +1,22 @@
+{
+    "return_type": "bool", 
+    "address": "0041ae40", 
+    "args": [
+        {
+            "type": "uint", 
+            "name": "param_1"
+        }, 
+        {
+            "type": "undefined4 *", 
+            "name": "param_2"
+        }
+    ], 
+    "calls": [
+        "00434090", 
+        "00433ff0", 
+        "00449100", 
+        "00433690"
+    ], 
+    "name": "FUN_0041ae40", 
+    "stack_frame": 88
+}

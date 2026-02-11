@@ -1,0 +1,15 @@
+{
+    "return_type": "undefined8", 
+    "address": "00448ff0", 
+    "args": [
+        {
+            "type": "FILE *", 
+            "name": "param_1"
+        }
+    ], 
+    "calls": [
+        "00449170"
+    ], 
+    "name": "FUN_00448ff0", 
+    "stack_frame": 52
+}

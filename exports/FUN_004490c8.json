@@ -1,0 +1,13 @@
+{
+    "return_type": "int", 
+    "address": "004490c8", 
+    "args": [
+        {
+            "type": "int", 
+            "name": "_SigNum"
+        }
+    ], 
+    "calls": [], 
+    "name": "FUN_004490c8", 
+    "stack_frame": 8
+}

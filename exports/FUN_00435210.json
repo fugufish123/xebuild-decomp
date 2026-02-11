@@ -1,0 +1,40 @@
+{
+    "return_type": "undefined", 
+    "address": "00435210", 
+    "args": [
+        {
+            "type": "int", 
+            "name": "param_1"
+        }, 
+        {
+            "type": "uint *", 
+            "name": "param_2"
+        }, 
+        {
+            "type": "uint *", 
+            "name": "param_3"
+        }, 
+        {
+            "type": "uint *", 
+            "name": "param_4"
+        }, 
+        {
+            "type": "int", 
+            "name": "param_5"
+        }, 
+        {
+            "type": "uint *", 
+            "name": "param_6"
+        }
+    ], 
+    "calls": [
+        "00437120", 
+        "00436d80", 
+        "00436d80", 
+        "004372a0", 
+        "004372a0", 
+        "00435020"
+    ], 
+    "name": "FUN_00435210", 
+    "stack_frame": 136
+}

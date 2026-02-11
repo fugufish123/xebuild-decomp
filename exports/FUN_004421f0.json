@@ -1,0 +1,15 @@
+{
+    "return_type": "undefined", 
+    "address": "004421f0", 
+    "args": [
+        {
+            "type": "void *", 
+            "name": "param_1"
+        }
+    ], 
+    "calls": [
+        "00449140"
+    ], 
+    "name": "FUN_004421f0", 
+    "stack_frame": 8
+}

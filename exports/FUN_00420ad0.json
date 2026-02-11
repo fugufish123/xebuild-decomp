@@ -1,0 +1,13 @@
+{
+    "return_type": "uint", 
+    "address": "00420ad0", 
+    "args": [
+        {
+            "type": "uint *", 
+            "name": "param_1"
+        }
+    ], 
+    "calls": [], 
+    "name": "FUN_00420ad0", 
+    "stack_frame": 8
+}

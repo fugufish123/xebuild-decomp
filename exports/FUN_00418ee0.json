@@ -1,0 +1,28 @@
+{
+    "return_type": "undefined4", 
+    "address": "00418ee0", 
+    "args": [
+        {
+            "type": "void *", 
+            "name": "param_1"
+        }, 
+        {
+            "type": "char *", 
+            "name": "param_2"
+        }, 
+        {
+            "type": "char *", 
+            "name": "param_3"
+        }
+    ], 
+    "calls": [
+        "00449080", 
+        "00449088", 
+        "00449160", 
+        "00433690", 
+        "00449148", 
+        "00449190"
+    ], 
+    "name": "FUN_00418ee0", 
+    "stack_frame": 1084
+}

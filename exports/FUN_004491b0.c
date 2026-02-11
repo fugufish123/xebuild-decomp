@@ -1,0 +1,11 @@
+
+void __cdecl abort(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x004491b0. Too many branches */
+                    /* WARNING: Subroutine does not return */
+                    /* WARNING: Treating indirect jump as call */
+  abort();
+  return;
+}
+

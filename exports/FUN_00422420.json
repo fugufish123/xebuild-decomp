@@ -1,0 +1,17 @@
+{
+    "return_type": "long", 
+    "address": "00422420", 
+    "args": [
+        {
+            "type": "FILE *", 
+            "name": "param_1"
+        }
+    ], 
+    "calls": [
+        "00449138", 
+        "00449128", 
+        "004490a8"
+    ], 
+    "name": "FUN_00422420", 
+    "stack_frame": 36
+}

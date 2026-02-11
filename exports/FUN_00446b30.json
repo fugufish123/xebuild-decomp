@@ -1,0 +1,23 @@
+{
+    "return_type": "typedef _onexit_t _onexit_t *", 
+    "address": "00446b30", 
+    "args": [
+        {
+            "type": "typedef _onexit_t _onexit_t *", 
+            "name": "param_1"
+        }
+    ], 
+    "calls": [
+        "00446fc0", 
+        "00449208", 
+        "00446fc0", 
+        "00446fc0", 
+        "00449290", 
+        "00446fd0", 
+        "00446fd0", 
+        "004491c8", 
+        "EXTERNAL:00000035"
+    ], 
+    "name": "FUN_00446b30", 
+    "stack_frame": 52
+}

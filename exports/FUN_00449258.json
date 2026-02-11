@@ -1,0 +1,13 @@
+{
+    "return_type": "int", 
+    "address": "00449258", 
+    "args": [
+        {
+            "type": "char *", 
+            "name": "_Path"
+        }
+    ], 
+    "calls": [], 
+    "name": "FUN_00449258", 
+    "stack_frame": 8
+}

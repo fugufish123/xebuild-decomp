@@ -1,0 +1,13 @@
+{
+    "return_type": "void", 
+    "address": "00449090", 
+    "args": [
+        {
+            "type": "uint", 
+            "name": "_Seed"
+        }
+    ], 
+    "calls": [], 
+    "name": "FUN_00449090", 
+    "stack_frame": 8
+}

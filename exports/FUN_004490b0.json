@@ -1,0 +1,17 @@
+{
+    "return_type": "int", 
+    "address": "004490b0", 
+    "args": [
+        {
+            "type": "char *", 
+            "name": "_OldFilename"
+        }, 
+        {
+            "type": "char *", 
+            "name": "_NewFilename"
+        }
+    ], 
+    "calls": [], 
+    "name": "FUN_004490b0", 
+    "stack_frame": 12
+}

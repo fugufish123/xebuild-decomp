@@ -1,0 +1,50 @@
+0040ba30: SUB ESP,0x4c
+0040ba33: MOV EDX,dword ptr [ESP + 0x54]
+0040ba37: MOV EAX,dword ptr [ESP + 0x50]
+0040ba3b: MOV dword ptr [ESP + 0x3c],0xffffffff
+0040ba43: MOV ECX,EDX
+0040ba45: AND ECX,0x1f
+0040ba48: ADD ECX,ECX
+0040ba4a: MOV dword ptr [ESP + 0x1c],ECX
+0040ba4e: MOV ECX,EDX
+0040ba50: SHR DX,0xb
+0040ba54: MOVZX EDX,DX
+0040ba57: SHR CX,0x5
+0040ba5b: MOV dword ptr [ESP + 0x24],EDX
+0040ba5f: MOV EDX,EAX
+0040ba61: AND ECX,0x3f
+0040ba64: AND EDX,0x1f
+0040ba67: MOV dword ptr [ESP + 0x20],ECX
+0040ba6b: MOV dword ptr [ESP + 0x28],EDX
+0040ba6f: MOV EDX,EAX
+0040ba71: SHR AX,0x9
+0040ba75: MOVZX EAX,AX
+0040ba78: SHR DX,0x5
+0040ba7c: ADD EAX,0x50
+0040ba7f: AND EDX,0xf
+0040ba82: MOV dword ptr [ESP + 0x30],EAX
+0040ba86: LEA EAX,[ESP + 0x1c]
+0040ba8a: SUB EDX,0x1
+0040ba8d: MOV dword ptr [ESP + 0x2c],EDX
+0040ba91: MOV dword ptr [ESP],EAX
+0040ba94: CALL 0x004490e8
+0040ba99: MOV dword ptr [ESP + 0x18],EAX
+0040ba9d: LEA EAX,[ESP + 0x18]
+0040baa1: MOV dword ptr [ESP],EAX
+0040baa4: CALL 0x00449110
+0040baa9: MOV dword ptr [ESP],EAX
+0040baac: CALL 0x004490e8
+0040bab1: MOV EDX,EAX
+0040bab3: MOV EAX,dword ptr [ESP + 0x18]
+0040bab7: MOV ECX,dword ptr [ESP + 0x58]
+0040babb: ADD EAX,EAX
+0040babd: SUB EAX,EDX
+0040babf: MOV EDX,0x989680
+0040bac4: MUL EDX
+0040bac6: ADD EAX,0xd53e8000
+0040bacb: ADC EDX,0x19db1de
+0040bad1: MOV dword ptr [ECX],EAX
+0040bad3: MOV EAX,0x1
+0040bad8: MOV dword ptr [ECX + 0x4],EDX
+0040badb: ADD ESP,0x4c
+0040bade: RET

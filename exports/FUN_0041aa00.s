@@ -1,0 +1,69 @@
+0041aa00: SUB ESP,0x1c
+0041aa03: CALL 0x00439eb0
+0041aa08: MOV EAX,dword ptr [ESP + 0x20]
+0041aa0c: TEST EAX,EAX
+0041aa0e: JNZ 0x0041aa60
+0041aa10: CMP byte ptr [0x00479570],0x0
+0041aa17: JNZ 0x0041aa58
+0041aa19: CMP byte ptr [0x00479571],0x0
+0041aa20: JNZ 0x0041aa58
+0041aa22: CMP byte ptr [0x00479572],0x0
+0041aa29: JNZ 0x0041ab7e
+0041aa2f: MOV dword ptr [ESP + 0x4],0x456680
+0041aa37: MOV dword ptr [ESP],0x1
+0041aa3e: CALL 0x00433690
+0041aa43: MOV byte ptr [0x00479570],0x23
+0041aa4a: MOV byte ptr [0x00479571],0x45
+0041aa51: MOV byte ptr [0x00479572],0xf1
+0041aa58: ADD ESP,0x1c
+0041aa5b: RET
+0041aa60: MOV dword ptr [ESP + 0x4],0x456664
+0041aa68: MOV dword ptr [ESP],0x1
+0041aa6f: CALL 0x00433690
+0041aa74: MOV dword ptr [ESP + 0x4],0x10
+0041aa7c: MOV dword ptr [ESP],0x44a6a4
+0041aa83: CALL 0x004346c0
+0041aa88: MOV dword ptr [ESP + 0x4],0x10
+0041aa90: MOV dword ptr [ESP],0x44a694
+0041aa97: CALL 0x004346c0
+0041aa9c: MOV dword ptr [ESP + 0x4],0x10
+0041aaa4: MOV dword ptr [ESP],0x44a684
+0041aaab: CALL 0x004346c0
+0041aab0: MOV dword ptr [ESP + 0x4],0x10
+0041aab8: MOV dword ptr [ESP],0x44a674
+0041aabf: CALL 0x004346c0
+0041aac4: MOV dword ptr [ESP + 0x4],0x10
+0041aacc: MOV dword ptr [ESP],0x44a664
+0041aad3: CALL 0x004346c0
+0041aad8: MOV dword ptr [ESP + 0x4],0x10
+0041aae0: MOV dword ptr [ESP],0x44a654
+0041aae7: CALL 0x004346c0
+0041aaec: MOV dword ptr [ESP + 0x4],0x8
+0041aaf4: MOV dword ptr [ESP],0x44a64c
+0041aafb: CALL 0x004346c0
+0041ab00: MOV dword ptr [ESP + 0x4],0x8
+0041ab08: MOV dword ptr [ESP],0x44a644
+0041ab0f: CALL 0x004346c0
+0041ab14: MOV dword ptr [ESP + 0x4],0x4
+0041ab1c: MOV dword ptr [ESP],0x44a640
+0041ab23: CALL 0x004346c0
+0041ab28: MOV dword ptr [ESP + 0x4],0x20
+0041ab30: MOV dword ptr [ESP],0x44a620
+0041ab37: CALL 0x004346c0
+0041ab3c: MOV dword ptr [ESP + 0x4],0x20
+0041ab44: MOV dword ptr [ESP],0x44a600
+0041ab4b: CALL 0x004346c0
+0041ab50: MOV dword ptr [ESP + 0x4],0x8
+0041ab58: MOV dword ptr [ESP],0x44a5e0
+0041ab5f: CALL 0x004346c0
+0041ab64: CMP byte ptr [0x00479570],0x0
+0041ab6b: JNZ 0x0041aa58
+0041ab71: CMP byte ptr [0x00479571],0x0
+0041ab78: JNZ 0x0041aa58
+0041ab7e: CMP byte ptr [0x00479572],0x0
+0041ab85: JNZ 0x0041aa58
+0041ab8b: MOV dword ptr [ESP + 0x4],0x3
+0041ab93: MOV dword ptr [ESP],0x479570
+0041ab9a: CALL 0x004346c0
+0041ab9f: ADD ESP,0x1c
+0041aba2: RET

@@ -1,0 +1,32 @@
+{
+    "return_type": "int", 
+    "address": "00448af0", 
+    "args": [
+        {
+            "type": "FILE *", 
+            "name": "param_1"
+        }, 
+        {
+            "type": "uint", 
+            "name": "param_2"
+        }, 
+        {
+            "type": "int", 
+            "name": "param_3"
+        }, 
+        {
+            "type": "int", 
+            "name": "param_4"
+        }
+    ], 
+    "calls": [
+        "00449130", 
+        "00449170", 
+        "00449180", 
+        "00449238", 
+        "00449240", 
+        "00449250"
+    ], 
+    "name": "FUN_00448af0", 
+    "stack_frame": 80
+}

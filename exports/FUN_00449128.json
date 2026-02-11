@@ -1,0 +1,13 @@
+{
+    "return_type": "long", 
+    "address": "00449128", 
+    "args": [
+        {
+            "type": "FILE *", 
+            "name": "_File"
+        }
+    ], 
+    "calls": [], 
+    "name": "FUN_00449128", 
+    "stack_frame": 8
+}

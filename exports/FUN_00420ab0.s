@@ -1,0 +1,7 @@
+00420ab0: MOV ECX,dword ptr [ESP + 0x4]
+00420ab4: MOVZX EAX,byte ptr [ECX]
+00420ab7: SHL EAX,0x8
+00420aba: MOV EDX,EAX
+00420abc: MOVZX EAX,byte ptr [ECX + 0x1]
+00420ac0: OR EAX,EDX
+00420ac2: RET

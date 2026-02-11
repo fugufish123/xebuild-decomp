@@ -1,0 +1,29 @@
+{
+    "return_type": "undefined", 
+    "address": "00448760", 
+    "args": [
+        {
+            "type": "byte *", 
+            "name": "param_1"
+        }, 
+        {
+            "type": "byte *", 
+            "name": "param_2"
+        }, 
+        {
+            "type": "undefined4", 
+            "name": "param_3"
+        }
+    ], 
+    "calls": [
+        "00449078", 
+        "00449108", 
+        "00449078", 
+        "00449108", 
+        "00448600", 
+        "00449140", 
+        "00449140"
+    ], 
+    "name": "FUN_00448760", 
+    "stack_frame": 76
+}

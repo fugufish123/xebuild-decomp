@@ -1,0 +1,17 @@
+{
+    "return_type": "uint", 
+    "address": "00433800", 
+    "args": [
+        {
+            "type": "byte *", 
+            "name": "param_1"
+        }, 
+        {
+            "type": "int", 
+            "name": "param_2"
+        }
+    ], 
+    "calls": [], 
+    "name": "FUN_00433800", 
+    "stack_frame": 12
+}

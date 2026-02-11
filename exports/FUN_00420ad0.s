@@ -1,0 +1,4 @@
+00420ad0: MOV EAX,dword ptr [ESP + 0x4]
+00420ad4: MOV EAX,dword ptr [EAX]
+00420ad6: BSWAP EAX
+00420ad8: RET

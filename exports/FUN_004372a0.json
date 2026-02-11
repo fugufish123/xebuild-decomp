@@ -1,0 +1,40 @@
+{
+    "return_type": "undefined", 
+    "address": "004372a0", 
+    "args": [
+        {
+            "type": "uint *", 
+            "name": "param_1"
+        }, 
+        {
+            "type": "int", 
+            "name": "param_2"
+        }, 
+        {
+            "type": "int", 
+            "name": "param_3"
+        }, 
+        {
+            "type": "uint", 
+            "name": "param_4"
+        }, 
+        {
+            "type": "int", 
+            "name": "param_5"
+        }, 
+        {
+            "type": "int", 
+            "name": "param_6"
+        }, 
+        {
+            "type": "int", 
+            "name": "param_7"
+        }
+    ], 
+    "calls": [
+        "00440e20", 
+        "00440e20"
+    ], 
+    "name": "FUN_004372a0", 
+    "stack_frame": 1036
+}

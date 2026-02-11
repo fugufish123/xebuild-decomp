@@ -1,0 +1,25 @@
+{
+    "return_type": "ulonglong", 
+    "address": "00447f20", 
+    "args": [
+        {
+            "type": "uint", 
+            "name": "param_1"
+        }, 
+        {
+            "type": "uint", 
+            "name": "param_2"
+        }, 
+        {
+            "type": "uint", 
+            "name": "param_3"
+        }, 
+        {
+            "type": "uint", 
+            "name": "param_4"
+        }
+    ], 
+    "calls": [], 
+    "name": "FUN_00447f20", 
+    "stack_frame": 56
+}

@@ -1,0 +1,26 @@
+{
+    "return_type": "undefined", 
+    "address": "00434960", 
+    "args": [
+        {
+            "type": "uint *", 
+            "name": "param_1"
+        }, 
+        {
+            "type": "void *", 
+            "name": "param_2"
+        }, 
+        {
+            "type": "typedef size_t uint", 
+            "name": "param_3"
+        }
+    ], 
+    "calls": [
+        "00449108", 
+        "004490f8", 
+        "004448d0", 
+        "00449140"
+    ], 
+    "name": "FUN_00434960", 
+    "stack_frame": 60
+}

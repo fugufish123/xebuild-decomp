@@ -1,0 +1,15 @@
+0041ed70: SUB ESP,0x2c
+0041ed73: LEA EAX,[ESP + 0x1c]
+0041ed77: MOV dword ptr [ESP],EAX
+0041ed7a: CALL 0x00449050
+0041ed7f: MOV EAX,[0x004cd844]
+0041ed84: MOV dword ptr [ESP + 0x4],EAX
+0041ed88: MOV EAX,dword ptr [ESP + 0x1c]
+0041ed8c: MOV dword ptr [ESP],EAX
+0041ed8f: CALL 0x00448190
+0041ed94: FSTP double ptr [ESP + 0x8]
+0041ed98: MOV dword ptr [ESP + 0x4],0x45763e
+0041eda0: MOV dword ptr [ESP],0x0
+0041eda7: CALL 0x00433690
+0041edac: ADD ESP,0x2c
+0041edaf: RET

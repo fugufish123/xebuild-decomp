@@ -1,0 +1,743 @@
+0043d9a0: PUSH EBP
+0043d9a1: PUSH EDI
+0043d9a2: PUSH ESI
+0043d9a3: PUSH EBX
+0043d9a4: SUB ESP,0x40
+0043d9a7: MOV ECX,dword ptr [ESP + 0x54]
+0043d9ab: MOV EAX,dword ptr [ESP + 0x58]
+0043d9af: MOV EDX,dword ptr [ECX]
+0043d9b1: MOV dword ptr [EAX],EDX
+0043d9b3: MOV EDI,dword ptr [ECX + 0x4]
+0043d9b6: MOV dword ptr [ESP],EDX
+0043d9b9: MOV dword ptr [EAX + 0x4],EDI
+0043d9bc: MOV EDX,dword ptr [ECX + 0x8]
+0043d9bf: MOV dword ptr [ESP + 0x4],EDI
+0043d9c3: MOV dword ptr [EAX + 0x8],EDX
+0043d9c6: MOV ESI,dword ptr [ECX + 0xc]
+0043d9c9: MOV dword ptr [ESP + 0x8],EDX
+0043d9cd: MOV dword ptr [EAX + 0xc],ESI
+0043d9d0: MOV EBP,dword ptr [ECX + 0x10]
+0043d9d3: MOV dword ptr [ESP + 0xc],ESI
+0043d9d7: MOV EDX,EBP
+0043d9d9: SHR EBP,0x18
+0043d9dc: MOVZX EBX,DL
+0043d9df: MOVZX ESI,DH
+0043d9e2: MOV dword ptr [ESP + 0x10],EDX
+0043d9e6: MOV EBX,dword ptr [EBX*0x4 + 0x45cc20]
+0043d9ed: XOR EBX,dword ptr [EBP*0x4 + 0x45d820]
+0043d9f4: MOV EBP,EDX
+0043d9f6: SHR EBP,0x10
+0043d9f9: XOR EBX,dword ptr [ESI*0x4 + 0x45d020]
+0043da00: MOV EDX,EBP
+0043da02: MOVZX ESI,DL
+0043da05: XOR EBX,dword ptr [ESI*0x4 + 0x45d420]
+0043da0c: MOV dword ptr [EAX + 0x10],EBX
+0043da0f: MOV EBP,dword ptr [ECX + 0x14]
+0043da12: MOV EDX,EBP
+0043da14: SHR EBP,0x18
+0043da17: MOVZX EBX,DL
+0043da1a: MOVZX ESI,DH
+0043da1d: MOV dword ptr [ESP + 0x14],EDX
+0043da21: MOV EBX,dword ptr [EBX*0x4 + 0x45cc20]
+0043da28: XOR EBX,dword ptr [EBP*0x4 + 0x45d820]
+0043da2f: XOR EBX,dword ptr [ESI*0x4 + 0x45d020]
+0043da36: MOV ESI,EDX
+0043da38: SHR ESI,0x10
+0043da3b: MOV EDX,ESI
+0043da3d: MOVZX ESI,DL
+0043da40: XOR EBX,dword ptr [ESI*0x4 + 0x45d420]
+0043da47: MOV dword ptr [EAX + 0x14],EBX
+0043da4a: MOV EBP,dword ptr [ECX + 0x18]
+0043da4d: MOV EDX,EBP
+0043da4f: SHR EBP,0x18
+0043da52: MOVZX EBX,DL
+0043da55: MOVZX ESI,DH
+0043da58: MOV dword ptr [ESP + 0x18],EDX
+0043da5c: MOV EBX,dword ptr [EBX*0x4 + 0x45cc20]
+0043da63: XOR EBX,dword ptr [EBP*0x4 + 0x45d820]
+0043da6a: MOV EBP,EDX
+0043da6c: SHR EBP,0x10
+0043da6f: XOR EBX,dword ptr [ESI*0x4 + 0x45d020]
+0043da76: MOV EDX,EBP
+0043da78: MOVZX ESI,DL
+0043da7b: MOV EDX,dword ptr [ESP]
+0043da7e: XOR EDX,dword ptr [0x00461c20]
+0043da84: XOR EBX,dword ptr [ESI*0x4 + 0x45d420]
+0043da8b: MOV dword ptr [EAX + 0x18],EBX
+0043da8e: MOV ECX,dword ptr [ECX + 0x1c]
+0043da91: MOV EBP,ECX
+0043da93: MOVZX EDI,CL
+0043da96: MOV EBX,ECX
+0043da98: SHR EBP,0x18
+0043da9b: MOVZX ESI,CH
+0043da9e: MOV dword ptr [ESP + 0x1c],ECX
+0043daa2: XOR EDX,dword ptr [EBP*0x4 + 0x460420]
+0043daa9: MOV ECX,dword ptr [EDI*0x4 + 0x45cc20]
+0043dab0: SHR EBX,0x10
+0043dab3: XOR ECX,dword ptr [EBP*0x4 + 0x45d820]
+0043daba: XOR EDX,dword ptr [EDI*0x4 + 0x460820]
+0043dac1: MOVZX EBX,BL
+0043dac4: XOR EDX,dword ptr [ESI*0x4 + 0x45fc20]
+0043dacb: XOR ECX,dword ptr [ESI*0x4 + 0x45d020]
+0043dad2: XOR ECX,dword ptr [EBX*0x4 + 0x45d420]
+0043dad9: MOV ESI,dword ptr [EBX*0x4 + 0x460020]
+0043dae0: XOR ESI,EDX
+0043dae2: MOV dword ptr [EAX + 0x1c],ECX
+0043dae5: MOV ECX,ESI
+0043dae7: MOV EBP,ESI
+0043dae9: MOVZX ECX,CL
+0043daec: SHR EBP,0x18
+0043daef: MOV EDI,ESI
+0043daf1: MOV EBX,dword ptr [ECX*0x4 + 0x45cc20]
+0043daf8: MOV ECX,ESI
+0043dafa: XOR EBX,dword ptr [EBP*0x4 + 0x45d820]
+0043db01: MOVZX EDX,CH
+0043db04: SHR EDI,0x10
+0043db07: MOV dword ptr [ESP],ESI
+0043db0a: XOR EBX,dword ptr [EDX*0x4 + 0x45d020]
+0043db11: MOV EDX,EDI
+0043db13: MOVZX EDX,DL
+0043db16: XOR EBX,dword ptr [EDX*0x4 + 0x45d420]
+0043db1d: MOV dword ptr [ESP + 0x20],EBX
+0043db21: MOV dword ptr [EAX + 0x20],EBX
+0043db24: MOV EBX,dword ptr [ESP + 0x4]
+0043db28: XOR EBX,ESI
+0043db2a: MOV ESI,EBX
+0043db2c: MOVZX ECX,BL
+0043db2f: MOVZX EDX,BH
+0043db32: SHR ESI,0x18
+0043db35: MOV EBP,dword ptr [ECX*0x4 + 0x45cc20]
+0043db3c: XOR EBP,dword ptr [ESI*0x4 + 0x45d820]
+0043db43: MOV ESI,EBX
+0043db45: SHR ESI,0x10
+0043db48: XOR EBP,dword ptr [EDX*0x4 + 0x45d020]
+0043db4f: MOV EDX,ESI
+0043db51: MOVZX EDX,DL
+0043db54: XOR EBP,dword ptr [EDX*0x4 + 0x45d420]
+0043db5b: MOV dword ptr [ESP + 0x24],EBP
+0043db5f: MOV EDI,dword ptr [ESP + 0x8]
+0043db63: MOV dword ptr [ESP + 0x4],EBX
+0043db67: MOV ESI,dword ptr [ESP + 0xc]
+0043db6b: MOV dword ptr [EAX + 0x24],EBP
+0043db6e: XOR EDI,EBX
+0043db70: MOV EBX,EDI
+0043db72: SHR EDI,0x18
+0043db75: MOVZX ECX,BL
+0043db78: MOVZX EDX,BH
+0043db7b: XOR ESI,EBX
+0043db7d: MOV EBP,dword ptr [ECX*0x4 + 0x45cc20]
+0043db84: MOV ECX,EBX
+0043db86: XOR EBP,dword ptr [EDI*0x4 + 0x45d820]
+0043db8d: SHR ECX,0x10
+0043db90: XOR EBP,dword ptr [EDX*0x4 + 0x45d020]
+0043db97: MOV dword ptr [ESP + 0x8],EBX
+0043db9b: MOVZX EDX,CL
+0043db9e: MOV EBX,ESI
+0043dba0: SHR ESI,0x10
+0043dba3: MOV ECX,dword ptr [EDX*0x4 + 0x45d420]
+0043dbaa: MOV EDX,ESI
+0043dbac: MOV ESI,EBX
+0043dbae: SHR ESI,0x18
+0043dbb1: MOVZX EDI,BL
+0043dbb4: MOV dword ptr [ESP + 0xc],EBX
+0043dbb8: MOVZX EDX,DL
+0043dbbb: XOR ECX,EBP
+0043dbbd: ADD EDX,0x200
+0043dbc3: MOV dword ptr [ESP + 0x28],ECX
+0043dbc7: MOV dword ptr [EAX + 0x28],ECX
+0043dbca: MOVZX ECX,BH
+0043dbcd: MOV EBX,ESI
+0043dbcf: ADD ECX,0x100
+0043dbd5: MOV ESI,dword ptr [EDI*0x4 + 0x45cc20]
+0043dbdc: ADD EBX,0x300
+0043dbe2: XOR ESI,dword ptr [EBX*0x4 + 0x45cc20]
+0043dbe9: XOR ESI,dword ptr [ECX*0x4 + 0x45cc20]
+0043dbf0: XOR ESI,dword ptr [EDX*0x4 + 0x45cc20]
+0043dbf7: MOV dword ptr [ESP + 0x2c],ESI
+0043dbfb: MOV dword ptr [EAX + 0x2c],ESI
+0043dbfe: MOV ESI,dword ptr [EDI*0x4 + 0x45fc20]
+0043dc05: XOR ESI,dword ptr [EBX*0x4 + 0x45fc20]
+0043dc0c: XOR ESI,dword ptr [ESP + 0x10]
+0043dc10: MOV EDI,dword ptr [EDX*0x4 + 0x45fc20]
+0043dc17: XOR ESI,dword ptr [ECX*0x4 + 0x45fc20]
+0043dc1e: XOR EDI,ESI
+0043dc20: MOV ECX,EDI
+0043dc22: MOV EDX,EDI
+0043dc24: MOVZX ECX,CL
+0043dc27: SHR EDX,0x18
+0043dc2a: MOV ESI,dword ptr [ECX*0x4 + 0x45cc20]
+0043dc31: MOV ECX,EDI
+0043dc33: XOR ESI,dword ptr [EDX*0x4 + 0x45d820]
+0043dc3a: MOVZX EDX,CH
+0043dc3d: XOR ESI,dword ptr [EDX*0x4 + 0x45d020]
+0043dc44: MOV EDX,EDI
+0043dc46: SHR EDX,0x10
+0043dc49: MOVZX EDX,DL
+0043dc4c: MOV EBP,dword ptr [EDX*0x4 + 0x45d420]
+0043dc53: MOV EDX,dword ptr [ESP + 0x14]
+0043dc57: XOR EDX,EDI
+0043dc59: XOR EBP,ESI
+0043dc5b: MOV EBX,EDX
+0043dc5d: MOV dword ptr [ESP + 0x10],EBP
+0043dc61: MOV dword ptr [EAX + 0x30],EBP
+0043dc64: MOV EBP,EBX
+0043dc66: MOVZX EDX,DL
+0043dc69: MOVZX ECX,BH
+0043dc6c: SHR EBP,0x18
+0043dc6f: MOV EDX,dword ptr [EDX*0x4 + 0x45cc20]
+0043dc76: MOV ESI,EBX
+0043dc78: XOR EDX,dword ptr [EBP*0x4 + 0x45d820]
+0043dc7f: XOR EDX,dword ptr [ECX*0x4 + 0x45d020]
+0043dc86: SHR ESI,0x10
+0043dc89: MOV dword ptr [ESP + 0x14],EBX
+0043dc8d: MOV ECX,ESI
+0043dc8f: MOVZX ECX,CL
+0043dc92: MOV ESI,dword ptr [ECX*0x4 + 0x45d420]
+0043dc99: XOR ESI,EDX
+0043dc9b: MOV EDX,dword ptr [ESP + 0x18]
+0043dc9f: MOV dword ptr [ESP + 0x30],ESI
+0043dca3: MOV dword ptr [EAX + 0x34],ESI
+0043dca6: XOR EDX,EBX
+0043dca8: MOV ESI,EDX
+0043dcaa: MOVZX EBX,DL
+0043dcad: SHR EDX,0x18
+0043dcb0: MOV EBP,dword ptr [EBX*0x4 + 0x45cc20]
+0043dcb7: XOR EBP,dword ptr [EDX*0x4 + 0x45d820]
+0043dcbe: MOV EDX,ESI
+0043dcc0: MOVZX ECX,DH
+0043dcc3: SHR EDX,0x10
+0043dcc6: MOV dword ptr [ESP + 0x18],ESI
+0043dcca: XOR EBP,dword ptr [ECX*0x4 + 0x45d020]
+0043dcd1: MOVZX ECX,DL
+0043dcd4: MOV EDX,dword ptr [ECX*0x4 + 0x45d420]
+0043dcdb: MOV ECX,dword ptr [ESP + 0x1c]
+0043dcdf: XOR EDX,EBP
+0043dce1: XOR ECX,ESI
+0043dce3: MOV dword ptr [ESP + 0x34],EDX
+0043dce7: MOV dword ptr [EAX + 0x38],EDX
+0043dcea: MOV EDX,ECX
+0043dcec: SHR EDX,0x18
+0043dcef: MOVZX EBP,CL
+0043dcf2: MOV EBX,ECX
+0043dcf4: MOVZX ESI,CH
+0043dcf7: MOV dword ptr [ESP + 0x1c],ECX
+0043dcfb: SHR EBX,0x10
+0043dcfe: MOV ECX,dword ptr [EBP*0x4 + 0x45cc20]
+0043dd05: XOR ECX,dword ptr [EDX*0x4 + 0x45d820]
+0043dd0c: MOVZX EBX,BL
+0043dd0f: XOR ECX,dword ptr [ESI*0x4 + 0x45d020]
+0043dd16: MOV dword ptr [ESP + 0x38],EDX
+0043dd1a: MOV EDX,dword ptr [EBX*0x4 + 0x45d420]
+0043dd21: XOR EDX,ECX
+0043dd23: MOV ECX,dword ptr [ESP + 0x38]
+0043dd27: MOV dword ptr [ESP + 0x3c],EDX
+0043dd2b: MOV dword ptr [EAX + 0x3c],EDX
+0043dd2e: MOV EDX,dword ptr [ESP]
+0043dd31: MOV ECX,dword ptr [ECX*0x4 + 0x460420]
+0043dd38: XOR ECX,dword ptr [EBP*0x4 + 0x460820]
+0043dd3f: XOR ECX,dword ptr [0x00461c24]
+0043dd45: XOR ECX,dword ptr [ESI*0x4 + 0x45fc20]
+0043dd4c: XOR ECX,dword ptr [EBX*0x4 + 0x460020]
+0043dd53: MOV EBP,ECX
+0043dd55: MOVZX EBX,CL
+0043dd58: XOR EDX,ECX
+0043dd5a: SHR EBP,0x18
+0043dd5d: MOV EBX,dword ptr [EBX*0x4 + 0x45cc20]
+0043dd64: MOVZX ESI,CH
+0043dd67: XOR EBX,dword ptr [EBP*0x4 + 0x45d820]
+0043dd6e: SHR ECX,0x10
+0043dd71: XOR EBX,dword ptr [ESP + 0x20]
+0043dd75: MOVZX ECX,CL
+0043dd78: XOR EBX,dword ptr [ESI*0x4 + 0x45d020]
+0043dd7f: MOV ESI,dword ptr [ESP + 0x24]
+0043dd83: XOR EBX,dword ptr [ECX*0x4 + 0x45d420]
+0043dd8a: MOV ECX,dword ptr [ESP + 0x8]
+0043dd8e: MOV EBP,EBX
+0043dd90: MOV dword ptr [EAX + 0x40],EBX
+0043dd93: MOV EBX,dword ptr [ESP + 0x4]
+0043dd97: MOV dword ptr [ESP + 0x4],EDX
+0043dd9b: XOR ESI,EBP
+0043dd9d: MOV dword ptr [EAX + 0x44],ESI
+0043dda0: MOV dword ptr [ESP + 0x20],ESI
+0043dda4: XOR EBX,EDX
+0043dda6: XOR ECX,EBX
+0043dda8: MOV dword ptr [ESP + 0x8],EBX
+0043ddac: MOV EDX,ECX
+0043ddae: MOV ECX,dword ptr [ESP + 0x28]
+0043ddb2: XOR ECX,ESI
+0043ddb4: MOV ESI,dword ptr [ESP + 0xc]
+0043ddb8: MOV dword ptr [ESP + 0xc],EDX
+0043ddbc: MOV EBX,ECX
+0043ddbe: MOV dword ptr [EAX + 0x48],ECX
+0043ddc1: MOV dword ptr [ESP + 0x24],EBX
+0043ddc5: XOR ESI,EDX
+0043ddc7: MOV ECX,ESI
+0043ddc9: MOV ESI,dword ptr [ESP + 0x2c]
+0043ddcd: XOR ESI,EBX
+0043ddcf: MOVZX EBX,CL
+0043ddd2: MOV dword ptr [ESP + 0x28],ESI
+0043ddd6: MOV dword ptr [EAX + 0x4c],ESI
+0043ddd9: MOV ESI,ECX
+0043dddb: SHR ESI,0x18
+0043ddde: MOV EBX,dword ptr [EBX*0x4 + 0x45fc20]
+0043dde5: XOR EBX,dword ptr [ESI*0x4 + 0x460820]
+0043ddec: MOVZX ESI,CH
+0043ddef: XOR EBX,dword ptr [ESI*0x4 + 0x460020]
+0043ddf6: MOV ESI,ECX
+0043ddf8: SHR ESI,0x10
+0043ddfb: MOV EDX,ESI
+0043ddfd: MOVZX ESI,DL
+0043de00: XOR EBX,dword ptr [ESI*0x4 + 0x460420]
+0043de07: XOR EDI,EBX
+0043de09: MOVZX ESI,BL
+0043de0c: MOV EDX,EDI
+0043de0e: MOV EDI,EBX
+0043de10: MOV ESI,dword ptr [ESI*0x4 + 0x45cc20]
+0043de17: SHR EDI,0x18
+0043de1a: XOR ESI,dword ptr [EDI*0x4 + 0x45d820]
+0043de21: MOVZX EDI,BH
+0043de24: SHR EBX,0x10
+0043de27: XOR ESI,dword ptr [ESP + 0x10]
+0043de2b: MOVZX EBX,BL
+0043de2e: MOV dword ptr [ESP + 0x10],EDX
+0043de32: XOR ESI,dword ptr [EDI*0x4 + 0x45d020]
+0043de39: MOV EDI,dword ptr [EBX*0x4 + 0x45d420]
+0043de40: XOR EDI,ESI
+0043de42: MOV dword ptr [ESP],EDI
+0043de45: MOV dword ptr [EAX + 0x50],EDI
+0043de48: MOV EDI,dword ptr [ESP + 0x14]
+0043de4c: XOR EDI,EDX
+0043de4e: MOV ESI,EDI
+0043de50: MOV EDI,dword ptr [ESP + 0x30]
+0043de54: XOR EDI,dword ptr [ESP]
+0043de57: MOV EBX,dword ptr [ESP + 0x18]
+0043de5b: MOV EDX,dword ptr [ESP + 0x34]
+0043de5f: MOV dword ptr [ESP + 0x14],ESI
+0043de63: XOR EBX,ESI
+0043de65: MOV ESI,dword ptr [ESP + 0x1c]
+0043de69: XOR EDX,EDI
+0043de6b: MOV dword ptr [EAX + 0x54],EDI
+0043de6e: MOV dword ptr [ESP + 0x18],EDI
+0043de72: MOV EDI,dword ptr [ESP + 0x3c]
+0043de76: MOV dword ptr [EAX + 0x58],EDX
+0043de79: XOR ESI,EBX
+0043de7b: MOV dword ptr [ESP + 0x2c],EDX
+0043de7f: MOV dword ptr [ESP + 0x1c],EBX
+0043de83: XOR EDI,EDX
+0043de85: MOV EDX,ESI
+0043de87: SHR EDX,0x18
+0043de8a: MOV dword ptr [ESP + 0x34],EDI
+0043de8e: MOV dword ptr [EAX + 0x5c],EDI
+0043de91: MOV EBX,EDX
+0043de93: MOV EDX,ESI
+0043de95: MOV EDI,ESI
+0043de97: MOVZX ESI,DL
+0043de9a: MOV EBX,dword ptr [EBX*0x4 + 0x460420]
+0043dea1: MOV EDX,EDI
+0043dea3: XOR EBX,dword ptr [ESI*0x4 + 0x460820]
+0043deaa: MOVZX ESI,DH
+0043dead: SHR EDX,0x10
+0043deb0: XOR EBX,dword ptr [0x00461c28]
+0043deb6: MOV dword ptr [ESP + 0x30],EDI
+0043deba: XOR EBX,dword ptr [ESI*0x4 + 0x45fc20]
+0043dec1: MOVZX ESI,DL
+0043dec4: MOV EDX,dword ptr [ESP + 0x4]
+0043dec8: XOR EBX,dword ptr [ESI*0x4 + 0x460020]
+0043decf: MOV EDI,EBX
+0043ded1: MOVZX ESI,BL
+0043ded4: XOR EDX,EBX
+0043ded6: SHR EDI,0x18
+0043ded9: MOV ESI,dword ptr [ESI*0x4 + 0x45cc20]
+0043dee0: MOV dword ptr [ESP + 0x4],EDX
+0043dee4: XOR ESI,dword ptr [EDI*0x4 + 0x45d820]
+0043deeb: MOV EDI,dword ptr [ESP + 0xc]
+0043deef: XOR EBP,ESI
+0043def1: MOVZX ESI,BH
+0043def4: SHR EBX,0x10
+0043def7: XOR EBP,dword ptr [ESI*0x4 + 0x45d020]
+0043defe: MOVZX EBX,BL
+0043df01: MOV ESI,dword ptr [ESP + 0x20]
+0043df05: XOR EBP,dword ptr [EBX*0x4 + 0x45d420]
+0043df0c: MOV EBX,dword ptr [ESP + 0x8]
+0043df10: XOR EBX,EDX
+0043df12: MOV dword ptr [ESP + 0x8],EBX
+0043df16: XOR ESI,EBP
+0043df18: XOR EDI,EBX
+0043df1a: MOV EBX,dword ptr [ESP + 0x24]
+0043df1e: MOV dword ptr [EAX + 0x60],EBP
+0043df21: XOR ECX,EDI
+0043df23: MOV dword ptr [EAX + 0x64],ESI
+0043df26: MOV dword ptr [ESP + 0xc],ESI
+0043df2a: MOV dword ptr [ESP + 0x20],EDI
+0043df2e: XOR EBX,ESI
+0043df30: MOV ESI,dword ptr [ESP + 0x28]
+0043df34: MOV dword ptr [EAX + 0x68],EBX
+0043df37: MOV dword ptr [ESP + 0x24],EBX
+0043df3b: XOR ESI,EBX
+0043df3d: MOVZX EBX,CL
+0043df40: MOV dword ptr [ESP + 0x28],ESI
+0043df44: MOV dword ptr [EAX + 0x6c],ESI
+0043df47: MOV ESI,ECX
+0043df49: SHR ESI,0x18
+0043df4c: MOV EBX,dword ptr [EBX*0x4 + 0x45fc20]
+0043df53: XOR EBX,dword ptr [ESI*0x4 + 0x460820]
+0043df5a: MOVZX ESI,CH
+0043df5d: XOR EBX,dword ptr [ESI*0x4 + 0x460020]
+0043df64: MOV ESI,ECX
+0043df66: SHR ESI,0x10
+0043df69: MOV EDX,ESI
+0043df6b: MOVZX ESI,DL
+0043df6e: MOV EDX,dword ptr [ESP + 0x10]
+0043df72: XOR EBX,dword ptr [ESI*0x4 + 0x460420]
+0043df79: MOV EDI,EBX
+0043df7b: MOVZX ESI,BL
+0043df7e: XOR EDX,EBX
+0043df80: SHR EDI,0x18
+0043df83: MOV ESI,dword ptr [ESI*0x4 + 0x45cc20]
+0043df8a: MOV dword ptr [ESP + 0x10],EDX
+0043df8e: XOR ESI,dword ptr [EDI*0x4 + 0x45d820]
+0043df95: MOVZX EDI,BH
+0043df98: SHR EBX,0x10
+0043df9b: XOR ESI,dword ptr [ESP]
+0043df9e: MOVZX EBX,BL
+0043dfa1: XOR ESI,dword ptr [EDI*0x4 + 0x45d020]
+0043dfa8: MOV EDI,dword ptr [ESP + 0x18]
+0043dfac: XOR ESI,dword ptr [EBX*0x4 + 0x45d420]
+0043dfb3: MOV EBX,dword ptr [ESP + 0x1c]
+0043dfb7: MOV dword ptr [ESP],ESI
+0043dfba: MOV dword ptr [EAX + 0x70],ESI
+0043dfbd: MOV ESI,dword ptr [ESP + 0x14]
+0043dfc1: XOR EDI,dword ptr [ESP]
+0043dfc4: XOR ESI,EDX
+0043dfc6: MOV EDX,dword ptr [ESP + 0x2c]
+0043dfca: MOV dword ptr [EAX + 0x74],EDI
+0043dfcd: MOV dword ptr [ESP + 0x18],EDI
+0043dfd1: XOR EBX,ESI
+0043dfd3: MOV dword ptr [ESP + 0x14],ESI
+0043dfd7: MOV dword ptr [ESP + 0x1c],EBX
+0043dfdb: XOR EDX,EDI
+0043dfdd: MOV EDI,dword ptr [ESP + 0x30]
+0043dfe1: MOV dword ptr [EAX + 0x78],EDX
+0043dfe4: MOV dword ptr [ESP + 0x2c],EDX
+0043dfe8: XOR EDI,EBX
+0043dfea: MOV ESI,EDI
+0043dfec: MOV EDI,dword ptr [ESP + 0x34]
+0043dff0: XOR EDI,EDX
+0043dff2: MOV EDX,ESI
+0043dff4: SHR EDX,0x18
+0043dff7: MOV dword ptr [ESP + 0x34],EDI
+0043dffb: MOV dword ptr [EAX + 0x7c],EDI
+0043dffe: MOV EBX,EDX
+0043e000: MOV EDX,ESI
+0043e002: MOV EDI,ESI
+0043e004: MOVZX ESI,DL
+0043e007: MOV EBX,dword ptr [EBX*0x4 + 0x460420]
+0043e00e: MOV EDX,EDI
+0043e010: XOR EBX,dword ptr [ESI*0x4 + 0x460820]
+0043e017: MOVZX ESI,DH
+0043e01a: MOV dword ptr [ESP + 0x30],EDI
+0043e01e: XOR EBX,dword ptr [0x00461c2c]
+0043e024: XOR EBX,dword ptr [ESI*0x4 + 0x45fc20]
+0043e02b: MOV ESI,EDI
+0043e02d: SHR ESI,0x10
+0043e030: MOV EDX,ESI
+0043e032: MOVZX ESI,DL
+0043e035: MOV EDX,dword ptr [ESP + 0x4]
+0043e039: XOR EBX,dword ptr [ESI*0x4 + 0x460020]
+0043e040: MOV EDI,EBX
+0043e042: MOVZX ESI,BL
+0043e045: XOR EDX,EBX
+0043e047: SHR EDI,0x18
+0043e04a: MOV ESI,dword ptr [ESI*0x4 + 0x45cc20]
+0043e051: MOV dword ptr [ESP + 0x4],EDX
+0043e055: XOR ESI,dword ptr [EDI*0x4 + 0x45d820]
+0043e05c: MOV EDI,dword ptr [ESP + 0x20]
+0043e060: XOR EBP,ESI
+0043e062: MOVZX ESI,BH
+0043e065: SHR EBX,0x10
+0043e068: XOR EBP,dword ptr [ESI*0x4 + 0x45d020]
+0043e06f: MOVZX EBX,BL
+0043e072: MOV ESI,dword ptr [ESP + 0xc]
+0043e076: XOR EBP,dword ptr [EBX*0x4 + 0x45d420]
+0043e07d: MOV EBX,dword ptr [ESP + 0x8]
+0043e081: XOR EBX,EDX
+0043e083: XOR EDI,EBX
+0043e085: MOV dword ptr [ESP + 0x8],EBX
+0043e089: MOV EBX,dword ptr [ESP + 0x24]
+0043e08d: XOR ESI,EBP
+0043e08f: XOR ECX,EDI
+0043e091: MOV dword ptr [ESP + 0x20],EDI
+0043e095: MOV dword ptr [EAX + 0x84],ESI
+0043e09b: MOV dword ptr [ESP + 0xc],ESI
+0043e09f: XOR EBX,ESI
+0043e0a1: MOV ESI,dword ptr [ESP + 0x28]
+0043e0a5: MOV dword ptr [EAX + 0x80],EBP
+0043e0ab: MOV dword ptr [EAX + 0x88],EBX
+0043e0b1: MOV dword ptr [ESP + 0x24],EBX
+0043e0b5: XOR ESI,EBX
+0043e0b7: MOVZX EBX,CL
+0043e0ba: MOV dword ptr [ESP + 0x28],ESI
+0043e0be: MOV dword ptr [EAX + 0x8c],ESI
+0043e0c4: MOV ESI,ECX
+0043e0c6: SHR ESI,0x18
+0043e0c9: MOV EBX,dword ptr [EBX*0x4 + 0x45fc20]
+0043e0d0: XOR EBX,dword ptr [ESI*0x4 + 0x460820]
+0043e0d7: MOVZX ESI,CH
+0043e0da: XOR EBX,dword ptr [ESI*0x4 + 0x460020]
+0043e0e1: MOV ESI,ECX
+0043e0e3: SHR ESI,0x10
+0043e0e6: MOV EDX,ESI
+0043e0e8: MOVZX ESI,DL
+0043e0eb: MOV EDX,dword ptr [ESP + 0x10]
+0043e0ef: XOR EBX,dword ptr [ESI*0x4 + 0x460420]
+0043e0f6: MOV EDI,EBX
+0043e0f8: MOVZX ESI,BL
+0043e0fb: XOR EDX,EBX
+0043e0fd: SHR EDI,0x18
+0043e100: MOV ESI,dword ptr [ESI*0x4 + 0x45cc20]
+0043e107: MOV dword ptr [ESP + 0x10],EDX
+0043e10b: XOR ESI,dword ptr [EDI*0x4 + 0x45d820]
+0043e112: MOVZX EDI,BH
+0043e115: SHR EBX,0x10
+0043e118: XOR ESI,dword ptr [ESP]
+0043e11b: MOVZX EBX,BL
+0043e11e: XOR ESI,dword ptr [EDI*0x4 + 0x45d020]
+0043e125: MOV EDI,dword ptr [ESP + 0x18]
+0043e129: XOR ESI,dword ptr [EBX*0x4 + 0x45d420]
+0043e130: MOV EBX,dword ptr [ESP + 0x1c]
+0043e134: MOV dword ptr [ESP],ESI
+0043e137: MOV dword ptr [EAX + 0x90],ESI
+0043e13d: MOV ESI,dword ptr [ESP + 0x14]
+0043e141: XOR EDI,dword ptr [ESP]
+0043e144: XOR ESI,EDX
+0043e146: MOV EDX,dword ptr [ESP + 0x2c]
+0043e14a: MOV dword ptr [EAX + 0x94],EDI
+0043e150: MOV dword ptr [ESP + 0x18],EDI
+0043e154: XOR EBX,ESI
+0043e156: MOV dword ptr [ESP + 0x14],ESI
+0043e15a: MOV dword ptr [ESP + 0x1c],EBX
+0043e15e: XOR EDX,EDI
+0043e160: MOV EDI,dword ptr [ESP + 0x30]
+0043e164: MOV dword ptr [EAX + 0x98],EDX
+0043e16a: MOV dword ptr [ESP + 0x2c],EDX
+0043e16e: XOR EDI,EBX
+0043e170: MOV ESI,EDI
+0043e172: MOV EDI,dword ptr [ESP + 0x34]
+0043e176: XOR EDI,EDX
+0043e178: MOV EDX,ESI
+0043e17a: MOV dword ptr [ESP + 0x34],EDI
+0043e17e: MOV dword ptr [EAX + 0x9c],EDI
+0043e184: MOV EDI,ESI
+0043e186: SHR EDI,0x18
+0043e189: MOVZX ESI,DL
+0043e18c: MOV dword ptr [ESP + 0x30],EDX
+0043e190: MOV EBX,dword ptr [EDI*0x4 + 0x460420]
+0043e197: XOR EBX,dword ptr [ESI*0x4 + 0x460820]
+0043e19e: MOV EDI,EDX
+0043e1a0: XOR EBX,dword ptr [0x00461c30]
+0043e1a6: MOVZX ESI,DH
+0043e1a9: XOR EBX,dword ptr [ESI*0x4 + 0x45fc20]
+0043e1b0: SHR EDI,0x10
+0043e1b3: MOV EDX,EDI
+0043e1b5: MOVZX ESI,DL
+0043e1b8: MOV EDX,dword ptr [ESP + 0x4]
+0043e1bc: XOR EBX,dword ptr [ESI*0x4 + 0x460020]
+0043e1c3: MOV EDI,EBX
+0043e1c5: MOVZX ESI,BL
+0043e1c8: XOR EDX,EBX
+0043e1ca: SHR EDI,0x18
+0043e1cd: MOV ESI,dword ptr [ESI*0x4 + 0x45cc20]
+0043e1d4: XOR ESI,dword ptr [EDI*0x4 + 0x45d820]
+0043e1db: XOR EBP,ESI
+0043e1dd: MOVZX ESI,BH
+0043e1e0: SHR EBX,0x10
+0043e1e3: XOR EBP,dword ptr [ESI*0x4 + 0x45d020]
+0043e1ea: MOVZX EBX,BL
+0043e1ed: MOV ESI,dword ptr [ESP + 0xc]
+0043e1f1: XOR EBP,dword ptr [EBX*0x4 + 0x45d420]
+0043e1f8: MOV EBX,dword ptr [ESP + 0x8]
+0043e1fc: XOR EBX,EDX
+0043e1fe: MOV EDI,EBP
+0043e200: MOV dword ptr [ESP + 0xc],EBX
+0043e204: MOV dword ptr [EAX + 0xa0],EBP
+0043e20a: XOR ESI,EDI
+0043e20c: MOV dword ptr [ESP + 0x8],EDI
+0043e210: MOV EDI,dword ptr [ESP + 0x20]
+0043e214: MOV EBP,EDX
+0043e216: MOV EDX,dword ptr [ESP + 0x28]
+0043e21a: MOV dword ptr [EAX + 0xa4],ESI
+0043e220: MOV dword ptr [ESP + 0x20],ESI
+0043e224: XOR EDI,EBX
+0043e226: MOV EBX,dword ptr [ESP + 0x24]
+0043e22a: XOR ECX,EDI
+0043e22c: MOV dword ptr [ESP + 0x24],EDI
+0043e230: XOR EBX,ESI
+0043e232: MOV ESI,ECX
+0043e234: XOR EDX,EBX
+0043e236: MOV dword ptr [EAX + 0xa8],EBX
+0043e23c: MOV dword ptr [ESP + 0x28],EBX
+0043e240: SHR ESI,0x18
+0043e243: MOVZX EBX,CL
+0043e246: MOV dword ptr [ESP + 0x38],EDX
+0043e24a: MOV EBX,dword ptr [EBX*0x4 + 0x45fc20]
+0043e251: XOR EBX,dword ptr [ESI*0x4 + 0x460820]
+0043e258: MOVZX ESI,CH
+0043e25b: XOR EBX,dword ptr [ESI*0x4 + 0x460020]
+0043e262: MOV ESI,ECX
+0043e264: MOV dword ptr [EAX + 0xac],EDX
+0043e26a: SHR ESI,0x10
+0043e26d: MOV EDX,ESI
+0043e26f: MOVZX ESI,DL
+0043e272: MOV EDX,dword ptr [ESP + 0x10]
+0043e276: XOR EBX,dword ptr [ESI*0x4 + 0x460420]
+0043e27d: XOR EDX,EBX
+0043e27f: MOVZX ESI,BL
+0043e282: MOVZX EDI,BH
+0043e285: MOV dword ptr [ESP + 0x4],EDX
+0043e289: MOV EDX,EBX
+0043e28b: MOV ESI,dword ptr [ESI*0x4 + 0x45cc20]
+0043e292: SHR EDX,0x18
+0043e295: SHR EBX,0x10
+0043e298: XOR ESI,dword ptr [EDX*0x4 + 0x45d820]
+0043e29f: MOVZX EBX,BL
+0043e2a2: XOR ESI,dword ptr [ESP]
+0043e2a5: MOV EDX,dword ptr [EBX*0x4 + 0x45d420]
+0043e2ac: XOR ESI,dword ptr [EDI*0x4 + 0x45d020]
+0043e2b3: MOV EDI,dword ptr [ESP + 0x18]
+0043e2b7: XOR EDX,ESI
+0043e2b9: MOV EBX,EDX
+0043e2bb: MOV dword ptr [EAX + 0xb0],EDX
+0043e2c1: MOV EDX,dword ptr [ESP + 0x14]
+0043e2c5: XOR EDX,dword ptr [ESP + 0x4]
+0043e2c9: MOV dword ptr [ESP],EBX
+0043e2cc: XOR EDI,EBX
+0043e2ce: MOV ESI,dword ptr [ESP + 0x1c]
+0043e2d2: MOV EBX,dword ptr [ESP + 0x30]
+0043e2d6: MOV dword ptr [EAX + 0xb4],EDI
+0043e2dc: MOV dword ptr [ESP + 0x14],EDI
+0043e2e0: XOR ESI,EDX
+0043e2e2: MOV dword ptr [ESP + 0x10],EDX
+0043e2e6: MOV EDX,dword ptr [ESP + 0x2c]
+0043e2ea: XOR EBX,ESI
+0043e2ec: MOV dword ptr [ESP + 0x18],ESI
+0043e2f0: MOV ESI,dword ptr [ESP + 0x34]
+0043e2f4: MOV dword ptr [ESP + 0x2c],EBX
+0043e2f8: XOR EDX,EDI
+0043e2fa: MOV EDI,EBX
+0043e2fc: XOR ESI,EDX
+0043e2fe: SHR EDI,0x18
+0043e301: MOV dword ptr [EAX + 0xb8],EDX
+0043e307: MOV dword ptr [ESP + 0x1c],EDX
+0043e30b: MOV dword ptr [ESP + 0x30],ESI
+0043e30f: MOV dword ptr [EAX + 0xbc],ESI
+0043e315: MOV EDX,dword ptr [EDI*0x4 + 0x460420]
+0043e31c: MOVZX ESI,BL
+0043e31f: MOV EDI,EBX
+0043e321: XOR EDX,dword ptr [ESI*0x4 + 0x460820]
+0043e328: MOVZX ESI,BH
+0043e32b: SHR EDI,0x10
+0043e32e: XOR EDX,dword ptr [0x00461c34]
+0043e334: MOV EBX,EDI
+0043e336: XOR EDX,dword ptr [ESI*0x4 + 0x45fc20]
+0043e33d: MOV EDI,EBP
+0043e33f: MOVZX ESI,BL
+0043e342: XOR EDX,dword ptr [ESI*0x4 + 0x460020]
+0043e349: MOV EBP,EDX
+0043e34b: XOR EDI,EDX
+0043e34d: SHR EBP,0x18
+0043e350: MOV EBX,EDI
+0043e352: MOVZX EDI,DL
+0043e355: MOV ESI,EBP
+0043e357: MOV EBP,dword ptr [EDI*0x4 + 0x45cc20]
+0043e35e: MOV EDI,dword ptr [ESP + 0x24]
+0043e362: XOR EBP,dword ptr [ESI*0x4 + 0x45d820]
+0043e369: MOVZX ESI,DH
+0043e36c: SHR EDX,0x10
+0043e36f: XOR EBP,dword ptr [ESP + 0x8]
+0043e373: MOVZX EDX,DL
+0043e376: MOV dword ptr [ESP + 0x8],EBX
+0043e37a: XOR EBP,dword ptr [ESI*0x4 + 0x45d020]
+0043e381: MOV ESI,dword ptr [ESP + 0xc]
+0043e385: XOR EBP,dword ptr [EDX*0x4 + 0x45d420]
+0043e38c: XOR ESI,EBX
+0043e38e: MOV dword ptr [ESP + 0xc],ESI
+0043e392: XOR EDI,ESI
+0043e394: MOV dword ptr [EAX + 0xc0],EBP
+0043e39a: XOR EBP,dword ptr [ESP + 0x20]
+0043e39e: XOR ECX,EDI
+0043e3a0: MOVZX ESI,CL
+0043e3a3: MOVZX EDX,CH
+0043e3a6: MOV dword ptr [EAX + 0xc4],EBP
+0043e3ac: XOR EBP,dword ptr [ESP + 0x28]
+0043e3b0: MOV dword ptr [EAX + 0xc8],EBP
+0043e3b6: XOR EBP,dword ptr [ESP + 0x38]
+0043e3ba: MOV ESI,dword ptr [ESI*0x4 + 0x45fc20]
+0043e3c1: MOV dword ptr [EAX + 0xcc],EBP
+0043e3c7: MOV EBP,ECX
+0043e3c9: SHR EBP,0x18
+0043e3cc: XOR ESI,dword ptr [EBP*0x4 + 0x460820]
+0043e3d3: MOV EBP,ECX
+0043e3d5: SHR EBP,0x10
+0043e3d8: XOR ESI,dword ptr [EDX*0x4 + 0x460020]
+0043e3df: MOV EDX,EBP
+0043e3e1: MOVZX EDX,DL
+0043e3e4: XOR ESI,dword ptr [EDX*0x4 + 0x460420]
+0043e3eb: MOV EDX,ESI
+0043e3ed: MOV EBP,ESI
+0043e3ef: MOV EBX,ESI
+0043e3f1: SHR EBP,0x18
+0043e3f4: MOVZX EDX,DL
+0043e3f7: MOV EDX,dword ptr [EDX*0x4 + 0x45cc20]
+0043e3fe: XOR EDX,dword ptr [EBP*0x4 + 0x45d820]
+0043e405: MOVZX EBP,BH
+0043e408: XOR EDX,dword ptr [ESP]
+0043e40b: XOR EDX,dword ptr [EBP*0x4 + 0x45d020]
+0043e412: MOV EBP,ESI
+0043e414: SHR EBP,0x10
+0043e417: MOV EBX,EBP
+0043e419: MOVZX EBP,BL
+0043e41c: MOV EBX,dword ptr [EBP*0x4 + 0x45d420]
+0043e423: XOR EBX,EDX
+0043e425: MOV EDX,dword ptr [ESP + 0x18]
+0043e429: MOV EBP,EBX
+0043e42b: XOR EBP,dword ptr [ESP + 0x14]
+0043e42f: MOV dword ptr [EAX + 0xd0],EBX
+0043e435: MOV EBX,dword ptr [ESP + 0x4]
+0043e439: MOV dword ptr [EAX + 0xd4],EBP
+0043e43f: XOR EBP,dword ptr [ESP + 0x1c]
+0043e443: XOR EBX,dword ptr [ESP + 0x10]
+0043e447: MOV dword ptr [EAX + 0xd8],EBP
+0043e44d: XOR EBP,dword ptr [ESP + 0x30]
+0043e451: XOR EDX,EBX
+0043e453: MOV EBX,dword ptr [ESP + 0x2c]
+0043e457: XOR EBX,EDX
+0043e459: MOV dword ptr [EAX + 0xdc],EBP
+0043e45f: MOV EBP,dword ptr [ESP + 0x8]
+0043e463: XOR EBX,ESI
+0043e465: XOR EBP,dword ptr [0x00461c38]
+0043e46b: MOV EDX,EBX
+0043e46d: SHR EDX,0x18
+0043e470: XOR EBP,dword ptr [EDX*0x4 + 0x460420]
+0043e477: MOVZX EDX,BL
+0043e47a: XOR EBP,dword ptr [EDX*0x4 + 0x460820]
+0043e481: MOVZX EDX,BH
+0043e484: SHR EBX,0x10
+0043e487: XOR EBP,dword ptr [EDX*0x4 + 0x45fc20]
+0043e48e: MOVZX EBX,BL
+0043e491: XOR EBP,dword ptr [EBX*0x4 + 0x460020]
+0043e498: MOV dword ptr [EAX + 0xe0],EBP
+0043e49e: XOR EBP,dword ptr [ESP + 0xc]
+0043e4a2: XOR EDI,EBP
+0043e4a4: MOV dword ptr [EAX + 0xe4],EBP
+0043e4aa: XOR ECX,EDI
+0043e4ac: MOV dword ptr [EAX + 0xe8],EDI
+0043e4b2: MOV dword ptr [EAX + 0xec],ECX
+0043e4b8: MOV dword ptr [EAX + 0xf0],0x0
+0043e4c2: MOV byte ptr [EAX + 0xf0],0xe0
+0043e4c9: ADD ESP,0x40
+0043e4cc: XOR EAX,EAX
+0043e4ce: POP EBX
+0043e4cf: POP ESI
+0043e4d0: POP EDI
+0043e4d1: POP EBP
+0043e4d2: RET

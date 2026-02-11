@@ -1,0 +1,17 @@
+{
+    "return_type": "bool", 
+    "address": "0040fc30", 
+    "args": [
+        {
+            "type": "uint *", 
+            "name": "param_1"
+        }, 
+        {
+            "type": "uint *", 
+            "name": "param_2"
+        }
+    ], 
+    "calls": [], 
+    "name": "FUN_0040fc30", 
+    "stack_frame": 12
+}

@@ -1,0 +1,27 @@
+{
+    "return_type": "uint", 
+    "address": "004110b0", 
+    "args": [
+        {
+            "type": "void *", 
+            "name": "param_1"
+        }, 
+        {
+            "type": "uint", 
+            "name": "param_2"
+        }, 
+        {
+            "type": "byte", 
+            "name": "param_3"
+        }
+    ], 
+    "calls": [
+        "00433690", 
+        "00410500", 
+        "00433690", 
+        "00433690", 
+        "00410500"
+    ], 
+    "name": "FUN_004110b0", 
+    "stack_frame": 57
+}

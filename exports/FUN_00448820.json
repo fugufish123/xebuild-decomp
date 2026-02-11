@@ -1,0 +1,24 @@
+{
+    "return_type": "int", 
+    "address": "00448820", 
+    "args": [
+        {
+            "type": "char *", 
+            "name": "param_1"
+        }, 
+        {
+            "type": "undefined4 *", 
+            "name": "param_2"
+        }
+    ], 
+    "calls": [
+        "00449078", 
+        "00449108", 
+        "004490f8", 
+        "004491e0", 
+        "00449140", 
+        "004491e0"
+    ], 
+    "name": "FUN_00448820", 
+    "stack_frame": 120
+}

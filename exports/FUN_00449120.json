@@ -1,0 +1,17 @@
+{
+    "return_type": "int", 
+    "address": "00449120", 
+    "args": [
+        {
+            "type": "FILE *", 
+            "name": "_File"
+        }, 
+        {
+            "type": "wchar_t *", 
+            "name": "_Format"
+        }
+    ], 
+    "calls": [], 
+    "name": "FUN_00449120", 
+    "stack_frame": 12
+}

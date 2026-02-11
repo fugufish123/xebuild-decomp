@@ -1,0 +1,25 @@
+{
+    "return_type": "undefined4", 
+    "address": "0040ba30", 
+    "args": [
+        {
+            "type": "uint", 
+            "name": "param_1"
+        }, 
+        {
+            "type": "uint", 
+            "name": "param_2"
+        }, 
+        {
+            "type": "longlong *", 
+            "name": "param_3"
+        }
+    ], 
+    "calls": [
+        "004490e8", 
+        "00449110", 
+        "004490e8"
+    ], 
+    "name": "FUN_0040ba30", 
+    "stack_frame": 92
+}

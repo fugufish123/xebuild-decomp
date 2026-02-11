@@ -1,0 +1,25 @@
+0040e7b0: PUSH EBX
+0040e7b1: SUB ESP,0x48
+0040e7b4: MOV EAX,dword ptr [ESP + 0x54]
+0040e7b8: MOV EDX,dword ptr [ESP + 0x50]
+0040e7bc: LEA EBX,[ESP + 0x2c]
+0040e7c0: MOV dword ptr [ESP + 0x14],0x14
+0040e7c8: MOV dword ptr [ESP + 0x4],0x10
+0040e7d0: MOV dword ptr [ESP + 0x10],EBX
+0040e7d4: SUB EAX,0x20
+0040e7d7: MOV dword ptr [ESP],EDX
+0040e7da: MOV dword ptr [ESP + 0xc],EAX
+0040e7de: LEA EAX,[EDX + 0x20]
+0040e7e1: MOV dword ptr [ESP + 0x8],EAX
+0040e7e5: CALL 0x00434c00
+0040e7ea: MOV EAX,dword ptr [ESP + 0x58]
+0040e7ee: MOV dword ptr [ESP + 0x4],EBX
+0040e7f2: MOV dword ptr [ESP + 0x8],0x14
+0040e7fa: MOV dword ptr [ESP],EAX
+0040e7fd: CALL 0x00449100
+0040e802: TEST EAX,EAX
+0040e804: SETZ AL
+0040e807: ADD ESP,0x48
+0040e80a: MOVZX EAX,AL
+0040e80d: POP EBX
+0040e80e: RET

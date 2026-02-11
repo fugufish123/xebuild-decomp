@@ -1,0 +1,24 @@
+{
+    "return_type": "undefined4", 
+    "address": "0042dfb0", 
+    "args": [
+        {
+            "type": "undefined4", 
+            "name": "param_1"
+        }, 
+        {
+            "type": "ushort", 
+            "name": "param_2"
+        }
+    ], 
+    "calls": [
+        "004491d0", 
+        "00433690", 
+        "0041ce50", 
+        "00433690", 
+        "00410490", 
+        "0041ca20"
+    ], 
+    "name": "FUN_0042dfb0", 
+    "stack_frame": 70
+}

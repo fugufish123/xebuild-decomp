@@ -1,0 +1,17 @@
+{
+    "return_type": "wchar_t *", 
+    "address": "00449040", 
+    "args": [
+        {
+            "type": "wchar_t *", 
+            "name": "_Dest"
+        }, 
+        {
+            "type": "wchar_t *", 
+            "name": "_Source"
+        }
+    ], 
+    "calls": [], 
+    "name": "FUN_00449040", 
+    "stack_frame": 12
+}

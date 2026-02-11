@@ -1,0 +1,21 @@
+{
+    "return_type": "int", 
+    "address": "00449048", 
+    "args": [
+        {
+            "type": "FILE *", 
+            "name": "_File"
+        }, 
+        {
+            "type": "char *", 
+            "name": "_Format"
+        }, 
+        {
+            "type": "typedef va_list char *", 
+            "name": "_ArgList"
+        }
+    ], 
+    "calls": [], 
+    "name": "FUN_00449048", 
+    "stack_frame": 16
+}

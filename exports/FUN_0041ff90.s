@@ -1,0 +1,20 @@
+0041ff90: PUSH EBX
+0041ff91: SUB ESP,0x18
+0041ff94: MOV EAX,[0x0044a6c0]
+0041ff99: MOV EBX,dword ptr [ESP + 0x20]
+0041ff9d: MOV dword ptr [ESP + 0xc],0x0
+0041ffa5: MOV dword ptr [ESP + 0x8],0x5
+0041ffad: MOV dword ptr [ESP + 0x4],0x4579cb
+0041ffb5: MOV dword ptr [ESP],EAX
+0041ffb8: CALL dword ptr [0x0050f43c]
+0041ffbe: SUB ESP,0x10
+0041ffc1: CMP EAX,0x5
+0041ffc4: JZ 0x0041ffd0
+0041ffc6: ADD ESP,0x18
+0041ffc9: XOR EAX,EAX
+0041ffcb: POP EBX
+0041ffcc: RET
+0041ffd0: ADD ESP,0x18
+0041ffd3: MOV EAX,EBX
+0041ffd5: POP EBX
+0041ffd6: JMP 0x0041e800

@@ -1,0 +1,34 @@
+{
+    "return_type": "bool", 
+    "address": "00438860", 
+    "args": [
+        {
+            "type": "undefined4", 
+            "name": "param_1"
+        }, 
+        {
+            "type": "undefined1 *", 
+            "name": "param_2"
+        }, 
+        {
+            "type": "int", 
+            "name": "param_3"
+        }, 
+        {
+            "type": "int", 
+            "name": "param_4"
+        }
+    ], 
+    "calls": [
+        "004421a0", 
+        "004410e0", 
+        "00436fe0", 
+        "00436fe0", 
+        "004421f0", 
+        "004421f0", 
+        "004421f0", 
+        "0043e550"
+    ], 
+    "name": "FUN_00438860", 
+    "stack_frame": 80
+}

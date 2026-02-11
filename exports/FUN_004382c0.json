@@ -1,0 +1,36 @@
+{
+    "return_type": "undefined4", 
+    "address": "004382c0", 
+    "args": [
+        {
+            "type": "undefined4", 
+            "name": "param_1"
+        }, 
+        {
+            "type": "undefined1 *", 
+            "name": "param_2"
+        }, 
+        {
+            "type": "int", 
+            "name": "param_3"
+        }, 
+        {
+            "type": "int", 
+            "name": "param_4"
+        }
+    ], 
+    "calls": [
+        "004421a0", 
+        "004410e0", 
+        "00436fe0", 
+        "00436fe0", 
+        "00440e20", 
+        "004421f0", 
+        "004421f0", 
+        "004421f0", 
+        "00436fe0", 
+        "00436fe0"
+    ], 
+    "name": "FUN_004382c0", 
+    "stack_frame": 80
+}

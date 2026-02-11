@@ -1,0 +1,32 @@
+{
+    "return_type": "undefined4", 
+    "address": "00442130", 
+    "args": [
+        {
+            "type": "int", 
+            "name": "param_1"
+        }, 
+        {
+            "type": "void *", 
+            "name": "param_2"
+        }, 
+        {
+            "type": "void *", 
+            "name": "param_3"
+        }, 
+        {
+            "type": "uint *", 
+            "name": "param_4"
+        }, 
+        {
+            "type": "int", 
+            "name": "param_5"
+        }
+    ], 
+    "calls": [
+        "00440e20", 
+        "00441710"
+    ], 
+    "name": "FUN_00442130", 
+    "stack_frame": 580
+}

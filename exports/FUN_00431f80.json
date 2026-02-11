@@ -1,0 +1,31 @@
+{
+    "return_type": "void *", 
+    "address": "00431f80", 
+    "args": [
+        {
+            "type": "char *", 
+            "name": "param_1"
+        }, 
+        {
+            "type": "typedef size_t uint", 
+            "name": "param_2"
+        }, 
+        {
+            "type": "void *", 
+            "name": "param_3"
+        }
+    ], 
+    "calls": [
+        "00422670", 
+        "00434a30", 
+        "00449100", 
+        "00433690", 
+        "00433690", 
+        "00449140", 
+        "00433690", 
+        "00433690", 
+        "00433690"
+    ], 
+    "name": "FUN_00431f80", 
+    "stack_frame": 92
+}

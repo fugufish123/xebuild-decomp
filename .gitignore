@@ -1,0 +1,24 @@
+# reports and results of analysis
+diffs/
+TODO.md
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# system and temp files
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+
+# Binary files and objects
+*.o
+*.obj
+*.exe
+*.out
+*.bin

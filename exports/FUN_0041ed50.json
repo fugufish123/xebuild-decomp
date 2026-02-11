@@ -1,0 +1,10 @@
+{
+    "return_type": "typedef time_t __time64_t", 
+    "address": "0041ed50", 
+    "args": [], 
+    "calls": [
+        "00449050"
+    ], 
+    "name": "FUN_0041ed50", 
+    "stack_frame": 32
+}

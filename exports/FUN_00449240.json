@@ -1,0 +1,13 @@
+{
+    "return_type": "longlong", 
+    "address": "00449240", 
+    "args": [
+        {
+            "type": "int", 
+            "name": "_FileHandle"
+        }
+    ], 
+    "calls": [], 
+    "name": "FUN_00449240", 
+    "stack_frame": 8
+}

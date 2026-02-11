@@ -1,0 +1,34 @@
+{
+    "return_type": "undefined4", 
+    "address": "0040e690", 
+    "args": [
+        {
+            "type": "uint *", 
+            "name": "param_1"
+        }, 
+        {
+            "type": "int", 
+            "name": "param_2"
+        }, 
+        {
+            "type": "uint *", 
+            "name": "param_3"
+        }, 
+        {
+            "type": "uint *", 
+            "name": "param_4"
+        }, 
+        {
+            "type": "uint *", 
+            "name": "param_5"
+        }
+    ], 
+    "calls": [
+        "00434c00", 
+        "00435530", 
+        "00435820", 
+        "00435440"
+    ], 
+    "name": "FUN_0040e690", 
+    "stack_frame": 388
+}

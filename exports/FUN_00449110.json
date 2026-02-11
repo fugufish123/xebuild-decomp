@@ -1,0 +1,13 @@
+{
+    "return_type": "tm *", 
+    "address": "00449110", 
+    "args": [
+        {
+            "type": "time_t *", 
+            "name": "_Time"
+        }
+    ], 
+    "calls": [], 
+    "name": "FUN_00449110", 
+    "stack_frame": 8
+}

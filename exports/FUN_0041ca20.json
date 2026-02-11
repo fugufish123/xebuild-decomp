@@ -1,0 +1,35 @@
+{
+    "return_type": "int", 
+    "address": "0041ca20", 
+    "args": [
+        {
+            "type": "int", 
+            "name": "param_1"
+        }, 
+        {
+            "type": "int", 
+            "name": "param_2"
+        }, 
+        {
+            "type": "uint", 
+            "name": "param_3"
+        }, 
+        {
+            "type": "int", 
+            "name": "param_4"
+        }, 
+        {
+            "type": "uint", 
+            "name": "param_5"
+        }
+    ], 
+    "calls": [
+        "00434110", 
+        "004345b0", 
+        "00434110", 
+        "00434110", 
+        "00434110"
+    ], 
+    "name": "FUN_0041ca20", 
+    "stack_frame": 148
+}

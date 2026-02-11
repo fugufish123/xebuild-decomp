@@ -1,0 +1,17 @@
+{
+    "return_type": "float10", 
+    "address": "00448190", 
+    "args": [
+        {
+            "type": "int", 
+            "name": "param_1"
+        }, 
+        {
+            "type": "int", 
+            "name": "param_2"
+        }
+    ], 
+    "calls": [], 
+    "name": "FUN_00448190", 
+    "stack_frame": 20
+}

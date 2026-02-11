@@ -1,0 +1,25 @@
+{
+    "return_type": "typedef size_t uint", 
+    "address": "00449148", 
+    "args": [
+        {
+            "type": "void *", 
+            "name": "_DstBuf"
+        }, 
+        {
+            "type": "typedef size_t uint", 
+            "name": "_ElementSize"
+        }, 
+        {
+            "type": "typedef size_t uint", 
+            "name": "_Count"
+        }, 
+        {
+            "type": "FILE *", 
+            "name": "_File"
+        }
+    ], 
+    "calls": [], 
+    "name": "FUN_00449148", 
+    "stack_frame": 20
+}

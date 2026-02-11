@@ -1,0 +1,13 @@
+{
+    "return_type": "typedef size_t uint", 
+    "address": "00449078", 
+    "args": [
+        {
+            "type": "char *", 
+            "name": "_Str"
+        }
+    ], 
+    "calls": [], 
+    "name": "FUN_00449078", 
+    "stack_frame": 8
+}

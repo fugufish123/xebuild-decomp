@@ -1,0 +1,19 @@
+{
+    "return_type": "undefined4", 
+    "address": "0040b700", 
+    "args": [
+        {
+            "type": "ushort *", 
+            "name": "param_1"
+        }, 
+        {
+            "type": "longlong *", 
+            "name": "param_2"
+        }
+    ], 
+    "calls": [
+        "EXTERNAL:00000026"
+    ], 
+    "name": "FUN_0040b700", 
+    "stack_frame": 56
+}

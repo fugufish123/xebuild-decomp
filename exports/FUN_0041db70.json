@@ -1,0 +1,36 @@
+{
+    "return_type": "undefined4", 
+    "address": "0041db70", 
+    "args": [
+        {
+            "type": "int", 
+            "name": "param_1"
+        }, 
+        {
+            "type": "int", 
+            "name": "param_2"
+        }, 
+        {
+            "type": "int", 
+            "name": "param_3"
+        }, 
+        {
+            "type": "typedef size_t uint", 
+            "name": "param_4"
+        }, 
+        {
+            "type": "int", 
+            "name": "param_5"
+        }, 
+        {
+            "type": "undefined4 *", 
+            "name": "param_6"
+        }
+    ], 
+    "calls": [
+        "00434a30", 
+        "00449100"
+    ], 
+    "name": "FUN_0041db70", 
+    "stack_frame": 104
+}

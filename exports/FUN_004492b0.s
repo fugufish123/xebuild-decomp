@@ -1,0 +1,3 @@
+004492b0: MOV EAX,dword ptr [ESP + 0x4]
+004492b4: XCHG dword ptr [0x00479e74],EAX
+004492ba: RET

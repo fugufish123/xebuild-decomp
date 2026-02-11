@@ -1,0 +1,13 @@
+{
+    "return_type": "int", 
+    "address": "00449230", 
+    "args": [
+        {
+            "type": "typedef intptr_t int", 
+            "name": "_FindHandle"
+        }
+    ], 
+    "calls": [], 
+    "name": "FUN_00449230", 
+    "stack_frame": 8
+}

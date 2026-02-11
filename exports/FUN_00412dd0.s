@@ -1,0 +1,2 @@
+00412dd0: MOV EAX,[0x00479efc]
+00412dd5: RET

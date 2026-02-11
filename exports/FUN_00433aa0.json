@@ -1,0 +1,49 @@
+{
+    "return_type": "undefined4", 
+    "address": "00433aa0", 
+    "args": [
+        {
+            "type": "int", 
+            "name": "param_1"
+        }, 
+        {
+            "type": "undefined4", 
+            "name": "param_2"
+        }, 
+        {
+            "type": "int", 
+            "name": "param_3"
+        }, 
+        {
+            "type": "int", 
+            "name": "param_4"
+        }, 
+        {
+            "type": "int", 
+            "name": "param_5"
+        }, 
+        {
+            "type": "int", 
+            "name": "param_6"
+        }, 
+        {
+            "type": "int", 
+            "name": "param_7"
+        }
+    ], 
+    "calls": [
+        "00438460", 
+        "004380f0", 
+        "00438460", 
+        "004380f0", 
+        "00438860", 
+        "004389b0", 
+        "004382c0", 
+        "00438460", 
+        "004382c0", 
+        "00436df0", 
+        "004389b0"
+    ], 
+    "name": "FUN_00433aa0", 
+    "stack_frame": 1124
+}

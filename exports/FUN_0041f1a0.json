@@ -1,0 +1,33 @@
+{
+    "return_type": "undefined4", 
+    "address": "0041f1a0", 
+    "args": [
+        {
+            "type": "int", 
+            "name": "param_1"
+        }, 
+        {
+            "type": "uint", 
+            "name": "param_2"
+        }, 
+        {
+            "type": "int", 
+            "name": "param_3"
+        }
+    ], 
+    "calls": [
+        "00420b20", 
+        "EXTERNAL:00000077", 
+        "EXTERNAL:00000077", 
+        "EXTERNAL:0000006d", 
+        "00433690", 
+        "004490e0", 
+        "EXTERNAL:00000077", 
+        "004490d8", 
+        "004490d8", 
+        "EXTERNAL:0000006d", 
+        "00433690"
+    ], 
+    "name": "FUN_0041f1a0", 
+    "stack_frame": 76
+}

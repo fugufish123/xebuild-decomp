@@ -1,0 +1,149 @@
+0040ecc0: PUSH EBP
+0040ecc1: PUSH EDI
+0040ecc2: PUSH ESI
+0040ecc3: PUSH EBX
+0040ecc4: SUB ESP,0x18
+0040ecc7: MOV dword ptr [ESP + 0x10],ECX
+0040eccb: MOV ECX,dword ptr [0x00479ee8]
+0040ecd1: CMP ECX,EAX
+0040ecd3: JC 0x0040eed8
+0040ecd9: LEA ESI,[EAX + 0x1000]
+0040ecdf: CMP ECX,ESI
+0040ece1: MOV dword ptr [ESP + 0x14],ESI
+0040ece5: JC 0x0040eed8
+0040eceb: MOV ECX,EAX
+0040eced: MOV EDI,EAX
+0040ecef: MOV dword ptr [ESP + 0x8],0x1
+0040ecf7: AND ECX,0x3fff
+0040ecfd: SHR EDI,0xe
+0040ed00: TEST ECX,ECX
+0040ed02: MOV dword ptr [ESP + 0xc],EDI
+0040ed06: JNZ 0x0040ee98
+0040ed0c: ADD EAX,dword ptr [0x00479ed8]
+0040ed12: MOV ECX,dword ptr [EDX]
+0040ed14: MOV ESI,EDX
+0040ed16: MOV dword ptr [EAX],ECX
+0040ed18: LEA EDI,[EAX + 0x4]
+0040ed1b: MOV ECX,dword ptr [EDX + 0xffc]
+0040ed21: AND EDI,0xfffffffc
+0040ed24: MOV dword ptr [EAX + 0xffc],ECX
+0040ed2a: SUB EAX,EDI
+0040ed2c: LEA ECX,[EAX + 0x1000]
+0040ed32: SUB ESI,EAX
+0040ed34: SHR ECX,0x2
+0040ed37: MOVSD.REP ES:EDI,ESI
+0040ed39: MOV EBP,dword ptr [ESP + 0xc]
+0040ed3d: MOV ESI,dword ptr [ESP + 0x8]
+0040ed41: MOV EAX,EBP
+0040ed43: ADD ESI,EBP
+0040ed45: SHL EAX,0x9
+0040ed48: MOV dword ptr [ESP + 0x4],ESI
+0040ed4c: MOV dword ptr [ESP],EAX
+0040ed4f: NOP
+0040ed50: MOV EAX,dword ptr [ESP]
+0040ed53: MOV EBX,EBP
+0040ed55: MOV EDI,EBP
+0040ed57: SHR EBX,0x8
+0040ed5a: AND EBX,0xf
+0040ed5d: LEA ESI,[EAX + 0x80]
+0040ed63: MOV EDX,EAX
+0040ed65: MOV EAX,[0x00479ed0]
+0040ed6a: ADD EAX,EDX
+0040ed6c: MOV dword ptr [EAX],0x0
+0040ed72: MOV dword ptr [EAX + 0x4],0x0
+0040ed79: MOV dword ptr [EAX + 0x8],0x0
+0040ed80: MOV dword ptr [EAX + 0xc],0x0
+0040ed87: MOV ECX,dword ptr [0x00479ef0]
+0040ed8d: TEST ECX,ECX
+0040ed8f: JZ 0x0040ee60
+0040ed95: MOVZX ECX,byte ptr [EAX + 0x2]
+0040ed99: ADD EDX,0x10
+0040ed9c: MOV byte ptr [EAX],0xff
+0040ed9f: AND ECX,0xfffffff0
+0040eda2: OR ECX,EBX
+0040eda4: CMP EDX,ESI
+0040eda6: MOV byte ptr [EAX + 0x2],CL
+0040eda9: MOV ECX,EDI
+0040edab: MOV byte ptr [EAX + 0x1],CL
+0040edae: JNZ 0x0040ed65
+0040edb0: ADD EBP,0x1
+0040edb3: ADD dword ptr [ESP],0x200
+0040edba: CMP dword ptr [ESP + 0x4],EBP
+0040edbe: JNZ 0x0040ed50
+0040edc0: MOV EDI,dword ptr [ESP + 0x10]
+0040edc4: CMP DI,0xf1f1
+0040edc9: JZ 0x0040ee46
+0040edcb: MOV ESI,dword ptr [ESP + 0xc]
+0040edcf: MOV ECX,dword ptr [0x00479efc]
+0040edd5: LEA EBX,[EDI + -0x1]
+0040edd8: MOV EAX,EDI
+0040edda: ROL AX,0x8
+0040edde: MOV EDX,ESI
+0040ede0: SUB EDX,ECX
+0040ede2: CMP BX,-0x3
+0040ede6: JBE 0x0040eeb8
+0040edec: MOV EAX,ESI
+0040edee: LEA ESI,[EDX + 0x1]
+0040edf1: SUB EAX,ECX
+0040edf3: ADD EAX,0x1
+0040edf6: MOV EBX,ESI
+0040edf8: MOV EDI,EAX
+0040edfa: SHR BX,0x8
+0040edfe: SHL EDI,0x8
+0040ee01: ADD EBX,EDI
+0040ee03: CMP dword ptr [ESP + 0x8],0x2
+0040ee08: MOV word ptr [EDX + EDX*0x1 + 0x4cb7c0],BX
+0040ee10: JNZ 0x0040ee29
+0040ee12: ADD EDX,0x2
+0040ee15: ADD EAX,0x1
+0040ee18: SHR DX,0x8
+0040ee1c: SHL EAX,0x8
+0040ee1f: ADD EAX,EDX
+0040ee21: MOV word ptr [ESI + ESI*0x1 + 0x4cb7c0],AX
+0040ee29: CMP word ptr [ESP + 0x10],-0x1
+0040ee2f: JNZ 0x0040ee46
+0040ee31: MOV EAX,ECX
+0040ee33: MOV EDX,0xffffff1f
+0040ee38: NOT EAX
+0040ee3a: ADD EAX,dword ptr [ESP + 0x4]
+0040ee3e: MOV word ptr [EAX + EAX*0x1 + 0x4cb7c0],DX
+0040ee46: MOV EAX,dword ptr [ESP + 0x14]
+0040ee4a: MOV [0x004cd840],EAX
+0040ee4f: XOR EAX,EAX
+0040ee51: ADD ESP,0x18
+0040ee54: POP EBX
+0040ee55: POP ESI
+0040ee56: POP EDI
+0040ee57: POP EBP
+0040ee58: RET
+0040ee60: MOVZX ECX,byte ptr [EAX + 0x1]
+0040ee64: ADD EDX,0x10
+0040ee67: MOV byte ptr [EAX + 0x5],0xff
+0040ee6b: AND ECX,0xfffffff0
+0040ee6e: OR ECX,EBX
+0040ee70: CMP EDX,ESI
+0040ee72: MOV byte ptr [EAX + 0x1],CL
+0040ee75: MOV ECX,EDI
+0040ee77: MOV byte ptr [EAX],CL
+0040ee79: JNZ 0x0040ed65
+0040ee7f: ADD EBP,0x1
+0040ee82: ADD dword ptr [ESP],0x200
+0040ee89: CMP dword ptr [ESP + 0x4],EBP
+0040ee8d: JNZ 0x0040ed50
+0040ee93: JMP 0x0040edc0
+0040ee98: MOV EBX,0x4000
+0040ee9d: SUB EBX,ECX
+0040ee9f: MOV ECX,EBX
+0040eea1: XOR EBX,EBX
+0040eea3: CMP ECX,0x1000
+0040eea9: SETC BL
+0040eeac: ADD EBX,0x1
+0040eeaf: MOV dword ptr [ESP + 0x8],EBX
+0040eeb3: JMP 0x0040ed0c
+0040eeb8: CMP dword ptr [ESP + 0x8],0x2
+0040eebd: MOV word ptr [EDX + EDX*0x1 + 0x4cb7c0],AX
+0040eec5: JNZ 0x0040ee46
+0040eecb: MOV word ptr [EDX + EDX*0x1 + 0x4cb7c2],AX
+0040eed3: JMP 0x0040ee46
+0040eed8: MOV EAX,0xffffffff
+0040eedd: JMP 0x0040ee51

@@ -1,0 +1,41 @@
+{
+    "return_type": "int", 
+    "address": "00408160", 
+    "args": [
+        {
+            "type": "byte *", 
+            "name": "param_1"
+        }, 
+        {
+            "type": "int", 
+            "name": "param_2"
+        }, 
+        {
+            "type": "undefined4 *", 
+            "name": "param_3"
+        }, 
+        {
+            "type": "byte *", 
+            "name": "param_4"
+        }, 
+        {
+            "type": "char *", 
+            "name": "param_5"
+        }, 
+        {
+            "type": "undefined4 *", 
+            "name": "param_6"
+        }, 
+        {
+            "type": "byte *", 
+            "name": "param_7"
+        }
+    ], 
+    "calls": [
+        "00406330", 
+        "00406330", 
+        "00406330"
+    ], 
+    "name": "FUN_00408160", 
+    "stack_frame": 92
+}

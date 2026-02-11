@@ -1,0 +1,15 @@
+{
+    "return_type": "IMAGE_SECTION_HEADER *", 
+    "address": "00447990", 
+    "args": [
+        {
+            "type": "int", 
+            "name": "param_1"
+        }
+    ], 
+    "calls": [
+        "00447880"
+    ], 
+    "name": "FUN_00447990", 
+    "stack_frame": 8
+}

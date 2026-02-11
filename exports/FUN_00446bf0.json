@@ -1,0 +1,15 @@
+{
+    "return_type": "int", 
+    "address": "00446bf0", 
+    "args": [
+        {
+            "type": "typedef _onexit_t _onexit_t *", 
+            "name": "param_1"
+        }
+    ], 
+    "calls": [
+        "00446b30"
+    ], 
+    "name": "FUN_00446bf0", 
+    "stack_frame": 36
+}

@@ -1,0 +1,38 @@
+{
+    "return_type": "bool", 
+    "address": "00402410", 
+    "args": [
+        {
+            "type": "int", 
+            "name": "param_1"
+        }, 
+        {
+            "type": "int", 
+            "name": "param_2"
+        }, 
+        {
+            "type": "undefined4", 
+            "name": "param_3"
+        }, 
+        {
+            "type": "undefined4", 
+            "name": "param_4"
+        }, 
+        {
+            "type": "uint", 
+            "name": "param_5"
+        }
+    ], 
+    "calls": [
+        "00433690", 
+        "00402210", 
+        "0041db70", 
+        "00434110", 
+        "00435b00", 
+        "00433690", 
+        "00433690", 
+        "00433690"
+    ], 
+    "name": "FUN_00402410", 
+    "stack_frame": 164
+}

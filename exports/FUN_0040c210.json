@@ -1,0 +1,15 @@
+{
+    "return_type": "bool", 
+    "address": "0040c210", 
+    "args": [
+        {
+            "type": "byte *", 
+            "name": "param_1"
+        }
+    ], 
+    "calls": [
+        "00422aa0"
+    ], 
+    "name": "FUN_0040c210", 
+    "stack_frame": 36
+}

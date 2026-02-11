@@ -1,0 +1,12 @@
+
+int __cdecl putchar(int _Ch)
+
+{
+  int iVar1;
+  
+                    /* WARNING: Could not recover jumptable at 0x004490d8. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  iVar1 = putchar(_Ch);
+  return iVar1;
+}
+

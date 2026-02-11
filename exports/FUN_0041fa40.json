@@ -1,0 +1,15 @@
+{
+    "return_type": "undefined", 
+    "address": "0041fa40", 
+    "args": [], 
+    "calls": [
+        "00433690", 
+        "EXTERNAL:00000077", 
+        "00433690", 
+        "00449140", 
+        "EXTERNAL:00000071", 
+        "00433690"
+    ], 
+    "name": "FUN_0041fa40", 
+    "stack_frame": 32
+}

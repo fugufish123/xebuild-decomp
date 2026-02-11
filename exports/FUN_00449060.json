@@ -1,0 +1,21 @@
+{
+    "return_type": "char *", 
+    "address": "00449060", 
+    "args": [
+        {
+            "type": "char *", 
+            "name": "_Dest"
+        }, 
+        {
+            "type": "char *", 
+            "name": "_Source"
+        }, 
+        {
+            "type": "typedef size_t uint", 
+            "name": "_Count"
+        }
+    ], 
+    "calls": [], 
+    "name": "FUN_00449060", 
+    "stack_frame": 16
+}

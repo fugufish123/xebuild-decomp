@@ -1,0 +1,30 @@
+{
+    "return_type": "undefined", 
+    "address": "0042bb10", 
+    "args": [
+        {
+            "type": "void *", 
+            "name": "param_1"
+        }, 
+        {
+            "type": "typedef size_t uint", 
+            "name": "param_2"
+        }
+    ], 
+    "calls": [
+        "00433690", 
+        "00433690", 
+        "00420ad0", 
+        "00433690", 
+        "004490f8", 
+        "00420b20", 
+        "00433690", 
+        "00420ad0", 
+        "00420ad0", 
+        "00420b20", 
+        "00420b20", 
+        "00433690"
+    ], 
+    "name": "FUN_0042bb10", 
+    "stack_frame": 104
+}

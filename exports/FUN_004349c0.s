@@ -1,0 +1,34 @@
+004349c0: PUSH ESI
+004349c1: PUSH EBX
+004349c2: SUB ESP,0x34
+004349c5: MOV EAX,dword ptr [ESP + 0x40]
+004349c9: LEA ESI,[ESP + 0x1c]
+004349cd: MOV EBX,dword ptr [ESP + 0x44]
+004349d1: MOV dword ptr [ESP],ESI
+004349d4: MOV dword ptr [ESP + 0x4],EAX
+004349d8: CALL 0x00444da0
+004349dd: CMP dword ptr [ESP + 0x48],0x14
+004349e2: JBE 0x00434a10
+004349e4: MOV EAX,dword ptr [ESP + 0x1c]
+004349e8: MOV dword ptr [EBX],EAX
+004349ea: MOV EAX,dword ptr [ESP + 0x20]
+004349ee: MOV dword ptr [EBX + 0x4],EAX
+004349f1: MOV EAX,dword ptr [ESP + 0x24]
+004349f5: MOV dword ptr [EBX + 0x8],EAX
+004349f8: MOV EAX,dword ptr [ESP + 0x28]
+004349fc: MOV dword ptr [EBX + 0xc],EAX
+004349ff: MOV EAX,dword ptr [ESP + 0x2c]
+00434a03: MOV dword ptr [EBX + 0x10],EAX
+00434a06: ADD ESP,0x34
+00434a09: POP EBX
+00434a0a: POP ESI
+00434a0b: RET
+00434a10: MOV EAX,dword ptr [ESP + 0x48]
+00434a14: MOV dword ptr [ESP + 0x4],ESI
+00434a18: MOV dword ptr [ESP],EBX
+00434a1b: MOV dword ptr [ESP + 0x8],EAX
+00434a1f: CALL 0x004490f8
+00434a24: ADD ESP,0x34
+00434a27: POP EBX
+00434a28: POP ESI
+00434a29: RET

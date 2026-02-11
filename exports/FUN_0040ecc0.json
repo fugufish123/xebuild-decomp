@@ -1,0 +1,17 @@
+{
+    "return_type": "undefined4", 
+    "address": "0040ecc0", 
+    "args": [
+        {
+            "type": "ushort", 
+            "name": "param_1"
+        }, 
+        {
+            "type": "undefined4 *", 
+            "name": "param_2"
+        }
+    ], 
+    "calls": [], 
+    "name": "FUN_0040ecc0", 
+    "stack_frame": 44
+}

@@ -1,0 +1,21 @@
+{
+    "return_type": "void *", 
+    "address": "004490f8", 
+    "args": [
+        {
+            "type": "void *", 
+            "name": "_Dst"
+        }, 
+        {
+            "type": "void *", 
+            "name": "_Src"
+        }, 
+        {
+            "type": "typedef size_t uint", 
+            "name": "_Size"
+        }
+    ], 
+    "calls": [], 
+    "name": "FUN_004490f8", 
+    "stack_frame": 16
+}

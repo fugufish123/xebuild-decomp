@@ -1,0 +1,17 @@
+{
+    "return_type": "int", 
+    "address": "00449158", 
+    "args": [
+        {
+            "type": "FILE *", 
+            "name": "_File"
+        }, 
+        {
+            "type": "char *", 
+            "name": "_Format"
+        }
+    ], 
+    "calls": [], 
+    "name": "FUN_00449158", 
+    "stack_frame": 12
+}

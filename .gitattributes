@@ -1,0 +1,9 @@
+* text=auto
+
+exports/** linguist-generated=true
+
+diffs/*.md linguist-generated=true
+
+tools/*.py text eol=lf
+
+*.md text

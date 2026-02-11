@@ -1,0 +1,13 @@
+{
+    "return_type": "undefined", 
+    "address": "0042bf70", 
+    "args": [], 
+    "calls": [
+        "00433690", 
+        "00433690", 
+        "00420ad0", 
+        "00420ad0"
+    ], 
+    "name": "FUN_0042bf70", 
+    "stack_frame": 64
+}
