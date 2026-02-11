@@ -45,7 +45,16 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add -f TODO.md README.md
           git diff --quiet && git diff --staged --quiet || git commit -m "docs: update progress in TODO.md [skip ci]"
-          git push
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "docs: update progress in TODO.md [skip ci]"
+          title: "Automated TODO update"
+          body: "This PR updates TODO.md and README.md"
+          branch: "auto/update-todo"
+          base: "main"
+
       - name: Upload Artifacts
         if: always()
         uses: actions/upload-artifact@v4
