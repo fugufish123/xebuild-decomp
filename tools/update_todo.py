@@ -10,12 +10,9 @@ class TodoGenerator:
         self.diffs_dir = Path(diffs_dir)
 
     def get_all_export_functions(self):
-        """Return a mapping of function names to addresses from JSON files."""
         functions = {}
-
         if not self.exports_dir.exists():
             return functions
-
         for file in self.exports_dir.iterdir():
             if file.suffix == ".json" and not file.name.endswith(".cfg.json"):
                 name = file.stem
@@ -27,19 +24,26 @@ class TodoGenerator:
                         functions[name] = addr
                 except Exception:
                     functions[name] = "00000000"
-
         return functions
 
     def extract_diff_info(self, path):
-        """Extract function metadata from an existing diff report."""
         with path.open("r", encoding="utf-8") as f:
             content = f.read()
 
-        header = re.search(r"# Raport Różnic: ([\w_]+) \(@([a-fA-F0-9x]+)\)", content)
-        similarity = re.search(r"(\d+\.\d+)%", content)
+        header = re.search(
+            r"#\s*(?:Diff Report)[: ]+\s*(FUN_[A-Za-z0-9_]+).*?\(@?([0-9A-Fa-fx]+)\)",
+            content
+        )
+        similarity = re.search(r"(\d+(?:\.\d+)?)%", content)
 
-        name = header.group(1) if header else path.stem.replace("FUN_", "")
-        address = header.group(2) if header else path.stem.replace("FUN_", "")
+        if header:
+            name = header.group(1)
+            address = header.group(2)
+        else:
+            name = path.stem
+            address = path.stem
+
+        name = name.strip()
         address = address.lower().replace("0x", "")
 
         sim = float(similarity.group(1)) / 100 if similarity else 0.0
@@ -63,23 +67,18 @@ class TodoGenerator:
         }
 
     def load_existing_diffs(self):
-        """Load all diff reports and return structured metadata."""
         items = []
         processed = set()
-
         if not self.diffs_dir.exists():
             return items, processed
-
         for file in self.diffs_dir.iterdir():
             if file.suffix == ".md":
                 info = self.extract_diff_info(file)
                 items.append(info)
                 processed.add(info["name"])
-
         return items, processed
 
     def append_missing_functions(self, items, exports, processed):
-        """Add entries for functions that have no diff report."""
         for name, addr in exports.items():
             if name not in processed:
                 items.append({
@@ -92,12 +91,10 @@ class TodoGenerator:
                 })
 
     def sort_items(self, items):
-        """Sort items by grade and similarity."""
         grade_order = {"A": 3, "B": 2, "C": 1, "D": 0}
         items.sort(key=lambda x: (grade_order[x["grade"]], x["sim"]), reverse=True)
 
     def write_todo(self, items):
-        """Write the TODO.md file."""
         total = len(items)
         completed = sum(1 for i in items if i["grade"] == "A")
         progress = (completed / total * 100) if total else 0
@@ -129,7 +126,6 @@ class TodoGenerator:
         progress = (completed / total * 100) if total else 0
         progress_int = int(progress)
 
-        # --- Kolor badge ---
         if progress_int < 25:
             color = "red"
         elif progress_int < 50:
@@ -149,48 +145,37 @@ class TodoGenerator:
         with readme_path.open("r", encoding="utf-8") as f:
             content = f.read()
 
-        # --- 1. Aktualizacja BADGE ---
         badge_regex = r"!\[Progress\]\([^)]+\)"
 
         if re.search(badge_regex, content):
-            # podmień istniejący badge
             content = re.sub(badge_regex, badge_line, content, count=1)
         else:
-            # dodaj badge na samą górę
             content = badge_line + "\n" + content
 
-        # --- 2. Aktualizacja linii tekstowej Progress ---
         progress_regex = r"^Progress:.*"
         new_progress_line = f"Progress: **{completed}/{total} ({progress:.1f}%)**"
 
         if re.search(progress_regex, content, flags=re.MULTILINE):
-            content = re.sub(
-                progress_regex,
-                new_progress_line,
-                content,
-                flags=re.MULTILINE
-            )
+            content = re.sub(progress_regex, new_progress_line, content, flags=re.MULTILINE)
         else:
-            # dopisz na koniec
             content += "\n" + new_progress_line + "\n"
 
         with readme_path.open("w", encoding="utf-8") as f:
             f.write(content)
 
-
-
-
-
     def generate(self):
         exports = self.get_all_export_functions()
         items, processed = self.load_existing_diffs()
+        for name in processed:
+            if name in exports:
+                del exports[name]
         self.append_missing_functions(items, exports, processed)
         self.sort_items(items)
         self.write_todo(items)
         self.update_readme(items)
-
-        missing = len(exports) - len(processed)
+        missing = len(exports)
         print(f"TODO.md updated. Found {len(items)} functions ({missing} without reports).")
+
 
 if __name__ == "__main__":
     TodoGenerator().generate()
