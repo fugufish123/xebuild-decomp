@@ -96,7 +96,7 @@ class TodoGenerator:
 
     def write_todo(self, items):
         total = len(items)
-        completed = sum(1 for i in items if i["grade"] == "A")
+        completed = sum(1 for i in items if i["grade"] in ("A", "B"))
         progress = (completed / total * 100) if total else 0
 
         with open("TODO.md", "w", encoding="utf-8") as f:
@@ -110,7 +110,7 @@ class TodoGenerator:
                     status = "missing"
                     link = "*No source file*"
                 else:
-                    status_map = {"A": "complete", "B": "medium", "C": "poor", "D": "failing"}
+                    status_map = {"A": "perfect", "B": "complete", "C": "poor", "D": "failing"}
                     status = status_map[item["grade"]]
                     link = f"[View diff](diffs/{item['file']})"
 
@@ -122,7 +122,7 @@ class TodoGenerator:
 
     def update_readme(self, items):
         total = len(items)
-        completed = sum(1 for i in items if i["grade"] == "A")
+        completed = sum(1 for i in items if i["grade"] in ("A", "B"))
         progress = (completed / total * 100) if total else 0
         progress_int = int(progress)
 
