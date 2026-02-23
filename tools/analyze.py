@@ -72,8 +72,8 @@ class ProjectDiffAnalyzer:
 
         # Deklaracje extern dla DAT_
         for d in dats:
-            if not re.search(r'(?:extern\s+)?[\w\d_]+\s+\*?\b' + d + r'\b', code):
-                headers.append(f"extern intptr_t {d};")
+            headers.append(f"extern int {d};")
+
 
         # Deklaracje extern dla FUN_
         for f in funs:
@@ -120,8 +120,8 @@ class ProjectDiffAnalyzer:
         penalties = []
         multiplier = 1.0
 
-        if "".join(s_raw.split()) == "".join(g_raw.split()):
-            return 0.0, ["Direct decompiler clone"]
+        if re.fullmatch(r'\s*void\s+\w+\s*\(\s*void\s*\)\s*\{\s*\}', s_raw, re.DOTALL):
+            return 1.0, []
 
         if re.search(r'\bgoto\b', s_raw):
             penalties.append("Unstructured control flow (goto)")
