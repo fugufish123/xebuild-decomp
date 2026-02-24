@@ -1,14 +1,29 @@
 # Decomp TODO List
 
-**Completed (Grade A):** `8/517 (1.5%)`
+**Completed (Grade A):** `19/517 (3.7%)`
 
 | Status | Grade | Similarity | Address | Function | Report |
 | :---: | :---: | :---: | :---: | :--- | :--- |
+| skipped | **SKIP** | `100.00%` | `0x004490c0` | FUN_004490c0 | *Skipped* |
+| skipped | **SKIP** | `100.00%` | `0x004491e0` | FUN_004491e0 | *Skipped* |
+| skipped | **SKIP** | `100.00%` | `0x004491b0` | FUN_004491b0 | *Skipped* |
+| skipped | **SKIP** | `100.00%` | `0x00449210` | FUN_00449210 | *Skipped* |
+| perfect | **A** | `100.00%` | `0x00410460` | FUN_00410460 | [View diff](diffs/FUN_00410460.md) |
+| perfect | **A** | `100.00%` | `0x00410490` | FUN_00410490 | [View diff](diffs/FUN_00410490.md) |
+| perfect | **A** | `100.00%` | `0x004104d0` | FUN_004104d0 | [View diff](diffs/FUN_004104d0.md) |
+| perfect | **A** | `100.00%` | `0x004133d0` | FUN_004133d0 | [View diff](diffs/FUN_004133d0.md) |
 | perfect | **A** | `100.00%` | `0x00446fb0` | FUN_00446fb0 | [View diff](diffs/FUN_00446fb0.md) |
+| perfect | **A** | `100.00%` | `0x004133f0` | FUN_004133f0 | [View diff](diffs/FUN_004133f0.md) |
 | perfect | **A** | `100.00%` | `0x0041fe10` | FUN_0041fe10 | [View diff](diffs/FUN_0041fe10.md) |
+| perfect | **A** | `100.00%` | `0x00410220` | FUN_00410220 | [View diff](diffs/FUN_00410220.md) |
+| perfect | **A** | `100.00%` | `0x004130b0` | FUN_004130b0 | [View diff](diffs/FUN_004130b0.md) |
+| perfect | **A** | `100.00%` | `0x004134f0` | FUN_004134f0 | [View diff](diffs/FUN_004134f0.md) |
 | perfect | **A** | `100.00%` | `0x0040c260` | FUN_0040c260 | [View diff](diffs/FUN_0040c260.md) |
 | perfect | **A** | `100.00%` | `0x00412dd0` | FUN_00412dd0 | [View diff](diffs/FUN_00412dd0.md) |
+| perfect | **A** | `100.00%` | `0x00433600` | FUN_00433600 | [View diff](diffs/FUN_00433600.md) |
+| perfect | **A** | `100.00%` | `0x004104f0` | FUN_004104f0 | [View diff](diffs/FUN_004104f0.md) |
 | perfect | **A** | `100.00%` | `0x00439eb0` | FUN_00439eb0 | [View diff](diffs/FUN_00439eb0.md) |
+| perfect | **A** | `100.00%` | `0x00413090` | FUN_00413090 | [View diff](diffs/FUN_00413090.md) |
 | perfect | **A** | `97.16%` | `0x00406330` | FUN_00406330 | [View diff](diffs/FUN_00406330.md) |
 | perfect | **A** | `95.70%` | `0x004031d0` | FUN_004031d0 | [View diff](diffs/FUN_004031d0.md) |
 | complete | **B** | `80.31%` | `0x00433690` | FUN_00433690 | [View diff](diffs/FUN_00433690.md) |
@@ -69,14 +84,12 @@
 | missing | **D** | ` 0.00%` | `0x00435b00` | FUN_00435b00 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x00433ff0` | FUN_00433ff0 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x004104e0` | FUN_004104e0 | *No source file* |
-| missing | **D** | ` 0.00%` | `0x004130b0` | FUN_004130b0 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x0041c0c0` | FUN_0041c0c0 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x0043c1b0` | FUN_0043c1b0 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x0040d500` | FUN_0040d500 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x00446b30` | FUN_00446b30 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x00449208` | FUN_00449208 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x00420140` | FUN_00420140 | *No source file* |
-| missing | **D** | ` 0.00%` | `0x004104f0` | FUN_004104f0 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x00420b00` | FUN_00420b00 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x00401a00` | FUN_00401a00 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x0041ac00` | FUN_0041ac00 | *No source file* |
@@ -135,7 +148,6 @@
 | missing | **D** | ` 0.00%` | `0x0041ae40` | FUN_0041ae40 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x00449640` | FUN_00449640 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x00435820` | FUN_00435820 | *No source file* |
-| missing | **D** | ` 0.00%` | `0x00413090` | FUN_00413090 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x00449090` | FUN_00449090 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x00438460` | FUN_00438460 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x00411800` | FUN_00411800 | *No source file* |
@@ -146,7 +158,6 @@
 | missing | **D** | ` 0.00%` | `0x004389b0` | FUN_004389b0 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x00433440` | FUN_00433440 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x00416cd0` | FUN_00416cd0 | *No source file* |
-| missing | **D** | ` 0.00%` | `0x004134f0` | FUN_004134f0 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x00449290` | FUN_00449290 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x004491c0` | FUN_004491c0 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x00434090` | FUN_00434090 | *No source file* |
@@ -162,7 +173,6 @@
 | missing | **D** | ` 0.00%` | `0x00413410` | FUN_00413410 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x00401500` | FUN_00401500 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x00434110` | FUN_00434110 | *No source file* |
-| missing | **D** | ` 0.00%` | `0x004133d0` | FUN_004133d0 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x00440fc0` | FUN_00440fc0 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x00432190` | FUN_00432190 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x00449230` | FUN_00449230 | *No source file* |
@@ -218,7 +228,6 @@
 | missing | **D** | ` 0.00%` | `0x00447990` | FUN_00447990 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x004491a8` | FUN_004491a8 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x0042dfb0` | FUN_0042dfb0 | *No source file* |
-| missing | **D** | ` 0.00%` | `0x004491e0` | FUN_004491e0 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x0040fcc0` | FUN_0040fcc0 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x00418680` | FUN_00418680 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x0040fc30` | FUN_0040fc30 | *No source file* |
@@ -232,12 +241,10 @@
 | missing | **D** | ` 0.00%` | `0x0041ea90` | FUN_0041ea90 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x00449108` | FUN_00449108 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x0041ac70` | FUN_0041ac70 | *No source file* |
-| missing | **D** | ` 0.00%` | `0x00449210` | FUN_00449210 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x00420840` | FUN_00420840 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x0040e690` | FUN_0040e690 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x00416840` | FUN_00416840 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x004259a0` | FUN_004259a0 | *No source file* |
-| missing | **D** | ` 0.00%` | `0x004104d0` | FUN_004104d0 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x0041b1d0` | FUN_0041b1d0 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x00448600` | FUN_00448600 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x00449228` | FUN_00449228 | *No source file* |
@@ -249,7 +256,6 @@
 | missing | **D** | ` 0.00%` | `0x00449148` | FUN_00449148 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x0040c700` | FUN_0040c700 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x0041fe20` | FUN_0041fe20 | *No source file* |
-| missing | **D** | ` 0.00%` | `0x004133f0` | FUN_004133f0 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x00432e50` | FUN_00432e50 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x004491a0` | FUN_004491a0 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x0041ade0` | FUN_0041ade0 | *No source file* |
@@ -268,10 +274,8 @@
 | missing | **D** | ` 0.00%` | `0x0042bf70` | FUN_0042bf70 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x0041acd0` | FUN_0041acd0 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x00437120` | FUN_00437120 | *No source file* |
-| missing | **D** | ` 0.00%` | `0x00410460` | FUN_00410460 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x00438c30` | FUN_00438c30 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x00410240` | FUN_00410240 | *No source file* |
-| missing | **D** | ` 0.00%` | `0x004490c0` | FUN_004490c0 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x00404770` | FUN_00404770 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x0041e620` | FUN_0041e620 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x00412110` | FUN_00412110 | *No source file* |
@@ -322,7 +326,6 @@
 | missing | **D** | ` 0.00%` | `0x00447a00` | FUN_00447a00 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x0040c2e0` | FUN_0040c2e0 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x00410290` | FUN_00410290 | *No source file* |
-| missing | **D** | ` 0.00%` | `0x004491b0` | FUN_004491b0 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x00423490` | FUN_00423490 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x004382c0` | FUN_004382c0 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x00433aa0` | FUN_00433aa0 | *No source file* |
@@ -345,7 +348,6 @@
 | missing | **D** | ` 0.00%` | `0x004112b0` | FUN_004112b0 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x00449260` | FUN_00449260 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x00420910` | FUN_00420910 | *No source file* |
-| missing | **D** | ` 0.00%` | `0x00410220` | FUN_00410220 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x0040c940` | FUN_0040c940 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x004481c0` | FUN_004481c0 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x0040cc80` | FUN_0040cc80 | *No source file* |
@@ -419,7 +421,6 @@
 | missing | **D** | ` 0.00%` | `0x00438620` | FUN_00438620 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x00446e10` | FUN_00446e10 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x00402020` | FUN_00402020 | *No source file* |
-| missing | **D** | ` 0.00%` | `0x00433600` | FUN_00433600 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x00446200` | FUN_00446200 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x004349c0` | FUN_004349c0 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x00420710` | FUN_00420710 | *No source file* |
@@ -470,7 +471,6 @@
 | missing | **D** | ` 0.00%` | `0x0041aca0` | FUN_0041aca0 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x0042c900` | FUN_0042c900 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x004492b0` | FUN_004492b0 | *No source file* |
-| missing | **D** | ` 0.00%` | `0x00410490` | FUN_00410490 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x00447aa0` | FUN_00447aa0 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x00446c40` | FUN_00446c40 | *No source file* |
 | missing | **D** | ` 0.00%` | `0x0041d9b0` | FUN_0041d9b0 | *No source file* |
