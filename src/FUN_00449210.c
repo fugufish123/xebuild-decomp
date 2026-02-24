@@ -1,0 +1,2 @@
+
+void initterm(void);
