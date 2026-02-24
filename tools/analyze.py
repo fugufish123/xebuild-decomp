@@ -136,6 +136,68 @@ class ProjectDiffAnalyzer:
 
         return multiplier, penalties
 
+    def is_thunk_function(self, code, name):
+        """
+        Detects trivial thunks/import wrappers from MinGW, MSVC, Ghidra, IDA.
+        """
+
+        stripped = re.sub(r'\s+', ' ', code)
+
+        # 0. Pure declaration (no body)
+        if re.search(rf'\b{name}\s*\([^)]*\)\s*;', stripped):
+            return True
+
+
+
+        # 1. Self-call wrapper (Ghidra/IDA)
+        pattern_selfcall = rf'\b{name}\s*\([^)]*\)\s*{{\s*return\s+{name}\s*\([^)]*\);\s*}}'
+        if re.search(pattern_selfcall, stripped):
+            return True
+
+        # 2. Single-call thunk: return FUN_xxx();
+        if re.fullmatch(
+            rf'\s*\w[\w\s\*]*\s+{name}\s*\([^)]*\)\s*{{\s*return\s+\w+\([^)]*\);\s*}}',
+            stripped
+        ):
+            return True
+
+        # 3. MinGW import thunk: jmp _imp__xxx
+        if re.search(r'jmp\s+_imp__', code, re.IGNORECASE):
+            return True
+
+        # 4. MSVC import thunk: jmp dword ptr [__imp__xxx]
+        if re.search(r'jmp\s+dword\s+ptr\s*\[__imp__', code, re.IGNORECASE):
+            return True
+
+        # 5. Functions containing ONLY a jump
+        if re.fullmatch(r'\s*jmp\s+[^\n]+', stripped, re.IGNORECASE):
+            return True
+
+        # 6. Empty body
+        if re.fullmatch(rf'\s*\w[\w\s\*]*\s+{name}\s*\([^)]*\)\s*{{\s*}}', stripped):
+            return True
+
+        return False
+
+    def is_pure_declaration(self, code):
+        stripped = re.sub(r'\s+', ' ', code).strip()
+
+        # brak klamry otwierającej = nie ma ciała
+        if '{' in stripped:
+            return False
+
+        # jest przynajmniej jedna deklaracja funkcji
+        if re.search(r'\b\w[\w\s\*]*\s+\w+\s*\([^)]*\)\s*;', stripped):
+            return True
+
+        return False
+    def generate_skip_report(self, addr, name, reason):
+        path = f"diffs/FUN_{addr}.md"
+        with open(path, "w", encoding="utf-8") as f:
+            f.write(f"# Diff Report: {name} (@{addr})\n\n")
+            f.write(f"**Status:** SKIPPED ({reason})\n")
+            f.write("This function was skipped and does not require decompilation.\n")
+
     def generate_report(self, addr, f_name, g_raw, s_raw, fp_g, fp_s,
                         penalties, score, src_path, exp_path, g_err, s_err):
 
@@ -211,7 +273,10 @@ class ProjectDiffAnalyzer:
                     g_src = f.read()
                 with open(src_c, 'r') as f:
                     s_src = f.read()
-
+                if self.is_pure_declaration(s_src):
+                    print(f"{addr:<10} | {name:<20} | SKIP | --- | DECL-ONLY")
+                    self.generate_skip_report(addr, name, reason="DECL-ONLY")
+                    continue
                 ir_g, err_g, ret_g = self.compile_to_ir(self.preprocess_source(g_src, name))
                 ir_s, err_s, ret_s = self.compile_to_ir(self.preprocess_source(s_src, name))
 

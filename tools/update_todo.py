@@ -42,6 +42,16 @@ class TodoGenerator:
         else:
             name = path.stem
             address = path.stem
+        # Detect skipped functions
+        if "**Status:** SKIPPED" in content:
+            return {
+                "address": address,
+                "name": name,
+                "grade": "SKIP",
+                "sim": 1.0,
+                "exists": True,
+                "file": path.name
+            }
 
         name = name.strip()
         address = address.lower().replace("0x", "")
@@ -91,7 +101,7 @@ class TodoGenerator:
                 })
 
     def sort_items(self, items):
-        grade_order = {"A": 3, "B": 2, "C": 1, "D": 0}
+        grade_order = {"SKIP": 4, "A": 3, "B": 2, "C": 1, "D": 0}
         items.sort(key=lambda x: (grade_order[x["grade"]], x["sim"]), reverse=True)
 
     def write_todo(self, items):
@@ -110,10 +120,20 @@ class TodoGenerator:
                     status = "missing"
                     link = "*No source file*"
                 else:
-                    status_map = {"A": "perfect", "B": "complete", "C": "poor", "D": "failing"}
-                    status = status_map[item["grade"]]
-                    link = f"[View diff](diffs/{item['file']})"
+                    status_map = {
+                        "A": "perfect",
+                        "B": "complete",
+                        "C": "poor",
+                        "D": "failing",
+                        "SKIP": "skipped"
+                    }
 
+                    if item["grade"] == "SKIP":
+                        status = "skipped"
+                        link = "*Skipped*"
+                    else:
+                        status = status_map[item["grade"]]
+                        link = f"[View diff](diffs/{item['file']})"
                 f.write(
                     f"| {status} | **{item['grade']}** | "
                     f"`{item['sim']:>6.2%}` | `0x{item['address']}` | "
