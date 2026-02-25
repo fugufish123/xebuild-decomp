@@ -1,9 +1,9 @@
 # xebuild-decomp
 
 ![CI](https://github.com/fugufish123/xebuild-decomp/actions/workflows/decomp_status.yml/badge.svg)
-![Progress](https://img.shields.io/badge/Progress-3%25-red)
+![Progress](https://img.shields.io/badge/Progress-5%25-red)
 
-Progress: **19/517 (3.7%)**
+Progress: **30/517 (5.8%)**
 
 Reverse‑engineering and clean C reimplementation of **xebuild**.  
 No original source code is included.
