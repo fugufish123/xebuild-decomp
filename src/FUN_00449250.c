@@ -1,0 +1,3 @@
+
+int _errno(void);
+
